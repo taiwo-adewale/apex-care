@@ -12,12 +12,12 @@ const Header = () => {
   return (
     <header className="font-rubik">
       <div className="info-bar bg-header flex flex-col md:flex-row justify-between p-2">
-        <div className="flex flex-col md:flex-row items-start md:items-center">
+        <div className="flex flex-col md:flex-row items-center md:items-center">
           <div className="flex flex-row p-2">
             <span className="rounded-full bg-green-100 hover:bg-green-200 p-3 mx-1">
               <BsStopwatch color="#19ce67" />
             </span>
-            <p className="">
+            <p className="self-center hover:text-green-400">
               Mon-Fri 09:00-19:00
             </p>
           </div>
@@ -26,7 +26,7 @@ const Header = () => {
             <span className="rounded-full bg-green-100 hover:bg-green-200 p-3 mx-1">
               <BsFillTelephoneFill color="#19ce67" />
             </span>
-            <p className="">
+            <p className="self-center hover:text-green-400">
               Call Us: +07 554 332 322
             </p>
           </div>
@@ -35,14 +35,14 @@ const Header = () => {
             <span className="rounded-full bg-green-100 hover:bg-green-200 p-3 mx-1">
               <FaPaperPlane color="#19ce67" />
             </span>
-            <p className="">
+            <p className="self-center hover:text-green-400">
               youremail@example.com
             </p>
           </div>
         </div>
 
-        <div className="social-icons-and-language flex flex-col md:flex-row">
-          <div className="social-icons flex flex-row mx-auto">
+        <div className="social-icons-and-language flex flex-row">
+          <div className="social-icons flex flex-row mx-auto p-2">
             <button className="rounded-full bg-green-100 hover:bg-green-200 p-3 mx-1">
               <FaFacebookF color="#19ce67" />
             </button>
