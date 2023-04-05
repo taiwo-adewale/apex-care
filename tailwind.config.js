@@ -14,8 +14,15 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: "#19ce67", // rgb((25,206,103))
-        secondary: "",
+        primary: "#19ce67", // rgb(25,206,103)
+        secondary: "#121521", // rgb(18,21,33)
+      },
+      backgroundImage: {
+        "map-pattern": "url('/src/assets/map-bg.png')",
+      },
+      fontFamily: {
+        rubik: ["Rubik", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
     },
   },
