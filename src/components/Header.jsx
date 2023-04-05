@@ -128,10 +128,44 @@ const Header = () => {
         </nav>
 
         {navOpen && (
-          <p>Nav is open</p>
+          <div className="shadow-md justify-center px-2 flex-col">
+            <div className="p-3">
+              <a className="font-medium hover:text-green-500 ">Home</a>
+            </div>
+            <hr />
+
+            <div className="p-3">
+              <a className="font-medium hover:text-green-500 ">Department</a>
+            </div>
+            <hr />
+
+            <div className="p-3">
+              <a className="font-medium hover:text-green-500 ">Doctor</a>
+            </div>
+            <hr />
+
+            <div className="p-3">
+              <a className="font-medium hover:text-green-500 ">Shop</a>
+            </div>
+            <hr />
+
+            <div className="p-3">
+              <a className="font-medium hover:text-green-500 ">Blog</a>
+            </div>
+            <hr />
+
+            <div className="p-3">
+              <a className="font-medium hover:text-green-500 ">Pages</a>
+            </div>
+            <hr />
+
+            <div className="p-3">
+              <a className="font-medium hover:text-green-500 ">Contact</a>
+            </div>
+            <hr />
+          </div>
         )}
       </div>
-
 
     </header>
 
