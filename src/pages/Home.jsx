@@ -1,7 +1,11 @@
-import React from "react";
+import { FunFacts } from "../components";
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <div>
+      <FunFacts />
+    </div>
+  );
 };
 
 export default Home;
