@@ -1,10 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  mode: "jit",
   theme: {
     container: {
       center: true,
-      padding: "1rem",
+      padding: "0.75rem",
     },
     screens: {
       sm: "576px",
@@ -19,6 +20,15 @@ module.exports = {
       },
       backgroundImage: {
         "map-pattern": "url('/src/assets/map-bg.png')",
+      },
+      backgroundColor: {
+        "alt-section": "#f4f9fd", // rgb(244,249,253)
+      },
+      boxShadow: {
+        pick: "0 10px 55px 5px rgba(137, 173, 255, 0.2)",
+      },
+      borderRadius: {
+        pick: "70% 30% 30% 70% / 60% 40% 60% 40%",
       },
       fontFamily: {
         rubik: ["Rubik", "sans-serif"],

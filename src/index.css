@@ -12,3 +12,7 @@ h3,
 h4 {
   @apply font-poppins;
 }
+
+p {
+  @apply text-[#7D7D7D] leading-[1.8];
+}
