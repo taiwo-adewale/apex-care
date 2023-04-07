@@ -1,9 +1,9 @@
 const SectionTitle = ({ center, title, heading, desc, className }) => {
   return (
     <div
-      className={`${
-        center ? "text-center md:max-w-[700px] md:mx-auto" : "text-left"
-      }  ${className ? className : ""}`}
+      className={`${center ? "text-center md:max-w-[700px] md:mx-auto" : ""}  ${
+        className ? className : ""
+      }`}
     >
       <span className="text-sm md:text-base lg:text-[1.0625rem] mb-1.5 block text-primary">
         {title}
