@@ -7,7 +7,7 @@ import { services } from "../data";
 
 const Services = () => {
   return (
-    <section className="py-[3.75rem] md:py-[4.375rem] lg:py-[6.25rem] bg-alt-section">
+    <section className="section-py bg-alt-section">
       <div className="container">
         <SectionTitle
           center={true}

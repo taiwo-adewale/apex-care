@@ -13,6 +13,12 @@ import service04 from "./assets/service-4.jpg";
 import service05 from "./assets/service-5.jpg";
 import service06 from "./assets/service-6.jpg";
 
+import doctor01 from "./assets/doctor-1.jpg";
+import doctor02 from "./assets/doctor-2.jpg";
+import doctor03 from "./assets/doctor-3.jpg";
+import doctor04 from "./assets/doctor-4.jpg";
+import doctor05 from "./assets/doctor-5.jpg";
+
 export const funFacts = [
   {
     title: "Expert Doctors",
@@ -83,4 +89,44 @@ export const services = [
     icon: <GiLiver />,
     bgImg: service06,
   },
+];
+
+export const doctors = [
+  {
+    name: "Dr. Addison Smith",
+    role: "Cardiologist",
+    image: doctor01,
+  },
+  {
+    name: "Dr. Aiken Ward",
+    role: "Dermatologist",
+    image: doctor02,
+  },
+  {
+    name: "Dr. Babatunde Jon",
+    role: "Endocrinologist",
+    image: doctor03,
+  },
+  {
+    name: "Dr. Eachann John",
+    role: "Gastroenterologist",
+    image: doctor04,
+  },
+  {
+    name: "Dr. Sarah Taylor",
+    role: "Nephrologist",
+    image: doctor05,
+  },
+];
+
+export const servicesList = [
+  "cardiology",
+  "urologic oncology",
+  "neurology",
+  "medicine",
+  "surgery",
+  "urology",
+  "radiology",
+  "neurosurgery",
+  "bariatric surgery",
 ];

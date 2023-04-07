@@ -5,7 +5,6 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: "0.75rem",
     },
     screens: {
       sm: "576px",
@@ -17,15 +16,19 @@ module.exports = {
       colors: {
         primary: "#19ce67", // rgb(25,206,103)
         secondary: "#121521", // rgb(18,21,33)
+        textPrimary: "#7D7D7D", // rgb(125,125,125)
       },
       backgroundImage: {
         "map-pattern": "url('/src/assets/map-bg.png')",
       },
       backgroundColor: {
+        "section-main": "#fefefe", // rgb(254,254,254)
         "alt-section": "#f4f9fd", // rgb(244,249,253)
       },
       boxShadow: {
         pick: "0 10px 55px 5px rgba(137, 173, 255, 0.2)",
+        appointment: "0 2px 48px 0 rgba(0, 0, 0, 0.08)",
+        doctor: "0 10px 55px 5px rgba(137, 173, 255, 0.1)",
       },
       borderRadius: {
         pick: "70% 30% 30% 70% / 60% 40% 60% 40%",

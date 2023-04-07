@@ -14,5 +14,13 @@ h4 {
 }
 
 p {
-  @apply text-[#7D7D7D] leading-[1.8];
+  @apply text-textPrimary leading-[1.8];
+}
+
+.section-py {
+  @apply py-[3.75rem] md:py-[4.375rem] lg:py-[6.25rem];
+}
+
+.container {
+  @apply px-3 md:px-4;
 }
