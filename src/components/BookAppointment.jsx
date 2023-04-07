@@ -127,10 +127,10 @@ const BookAppointment = () => {
 
                 <ul
                   ref={ref}
-                  className={`absolute left-10 md:left-[3.25rem] right-0 overflow-x-hidden overflow-y-scroll py-2.5 bg-white z-20 transition-all duration-500 shadow-[0_0_29px_0_rgba(102,102,102,0.1)] ${
+                  className={`absolute left-10 md:left-[3.25rem] right-0 overflow-x-hidden overflow-y-scroll py-2.5 bg-white z-20 transition-all duration-500 h-[260px] top-full origin-top shadow-[0_0_29px_0_rgba(102,102,102,0.1)] ${
                     open
-                      ? "opacity-100 pointer-events-auto h-[260px] scale-100 top-full"
-                      : "opacity-0 pointer-events-none h-0 scale-0 top-0"
+                      ? "opacity-100 pointer-events-auto scale-100"
+                      : "opacity-0 pointer-events-none scale-50"
                   }`}
                 >
                   {servicesList.map((service, index) => (
