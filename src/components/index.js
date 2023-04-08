@@ -7,3 +7,4 @@ export { default as AnimatedNumbers } from "./AnimatedNumbers";
 export { default as SectionTitle } from "./SectionTitle";
 export { default as Doctors } from "./Doctors";
 export { default as BookAppointment } from "./BookAppointment";
+export { default as MissionAndVision } from "./MissionAndVision";

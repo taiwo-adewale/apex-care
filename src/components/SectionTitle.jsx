@@ -19,7 +19,7 @@ const SectionTitle = ({ center, title, heading, desc, className }) => {
 
       {desc && (
         <p
-          className={`block mt-2 text-[0.8125rem] md:mt-2.5 lg:text-[0.9375rem] ${
+          className={`block mt-2 text-[0.8125rem] md:mt-2.5 md:text-[0.9375rem] ${
             center ? "md:max-w-[520px] md:mx-auto" : ""
           }`}
         >

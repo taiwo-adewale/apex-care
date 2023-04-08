@@ -1,8 +1,15 @@
-import { Doctors, FunFacts, Services, BookAppointment } from "../components";
+import {
+  Doctors,
+  FunFacts,
+  Services,
+  BookAppointment,
+  MissionAndVision,
+} from "../components";
 
 const Home = () => {
   return (
     <div>
+      <MissionAndVision />
       <FunFacts />
       <Services />
       <Doctors />

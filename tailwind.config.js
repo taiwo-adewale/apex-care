@@ -9,7 +9,7 @@ module.exports = {
     screens: {
       sm: "576px",
       md: "768px",
-      lg: "1024px",
+      lg: "992px",
       xl: "1200px",
     },
     extend: {
@@ -29,6 +29,7 @@ module.exports = {
         pick: "0 10px 55px 5px rgba(137, 173, 255, 0.2)",
         appointment: "0 2px 48px 0 rgba(0, 0, 0, 0.08)",
         doctor: "0 10px 55px 5px rgba(137, 173, 255, 0.1)",
+        "mission-circle": "0 10px 55px 5px rgba(137, 173, 255, 0.3)",
       },
       borderRadius: {
         pick: "70% 30% 30% 70% / 60% 40% 60% 40%",
