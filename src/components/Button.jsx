@@ -10,6 +10,7 @@ const Button = ({ children, href, icon, onClick, className }) => {
         } ${className ? className : ""}`}
       >
         {children}
+
         {icon ? (
           <div className="absolute w-[2.0625rem] h-[2.0625rem] rounded-full top-1/2 -translate-y-1/2 right-[0.5rem] flex justify-center items-center text-white group-hover:text-secondary bg-[#8ee9b2] group-hover:bg-white transition-all duration-500">
             {icon}
@@ -29,6 +30,7 @@ const Button = ({ children, href, icon, onClick, className }) => {
       } ${className ? className : ""}`}
     >
       {children}
+
       {icon ? (
         <div className="absolute w-[2.0625rem] h-[2.0625rem] rounded-full top-1/2 -translate-y-1/2 right-[0.5rem] flex justify-center items-center text-white group-hover:text-secondary bg-[#8ee9b2] group-hover:bg-white transition-all duration-500">
           {icon}

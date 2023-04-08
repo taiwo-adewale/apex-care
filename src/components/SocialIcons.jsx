@@ -5,46 +5,56 @@ import {
   FaLinkedinIn,
 } from "react-icons/fa";
 
-import { motion } from "framer-motion";
-
-const SocialIcons = () => (
-  <div className="flex justify-center gap-2 mt-[1.125rem]">
-    <motion.a
-      whileHover={{ y: -2 }}
-      transition={{ duration: 0.3, ease: "linear" }}
+const SocialIcons = ({ center, dark }) => (
+  <div
+    className={`flex gap-2 mt-[1.125rem] ${
+      center ? "justify-center" : "justify-start"
+    }`}
+  >
+    <a
       href="https://facebook.com"
       target="_blank"
-      className="w-[1.875rem] h-[1.875rem] rounded-full text-primary bg-[#def5ee] hover:bg-primary hover:text-white transition-all duration-500 flex justify-center items-center text-sm"
+      className={`w-[1.875rem] h-[1.875rem] rounded-full hover:bg-primary transition-all duration-300 flex justify-center items-center text-sm hover:-translate-y-[2px] ${
+        dark
+          ? "bg-[#3a3c45] text-white"
+          : "bg-[#def5ee] text-primary hover:text-white"
+      }`}
     >
       <FaFacebookF />
-    </motion.a>
-    <motion.a
-      whileHover={{ y: -2 }}
-      transition={{ duration: 0.3, ease: "linear" }}
+    </a>
+    <a
       href="https://twitter.com"
       target="_blank"
-      className="w-[1.875rem] h-[1.875rem] rounded-full text-primary bg-[#def5ee] hover:bg-primary hover:text-white transition-all duration-500 flex justify-center items-center text-sm"
+      className={`w-[1.875rem] h-[1.875rem] rounded-full hover:bg-primary transition-all duration-300 flex justify-center items-center text-sm hover:-translate-y-[2px] ${
+        dark
+          ? "bg-[#3a3c45] text-white"
+          : "bg-[#def5ee] text-primary hover:text-white"
+      }`}
     >
       <FaTwitter />
-    </motion.a>
-    <motion.a
-      whileHover={{ y: -2 }}
-      transition={{ duration: 0.3, ease: "linear" }}
+    </a>
+    <a
       href="https://linkedin.com"
       target="_blank"
-      className="w-[1.875rem] h-[1.875rem] rounded-full text-primary bg-[#def5ee] hover:bg-primary hover:text-white transition-all duration-500 flex justify-center items-center text-sm"
+      className={`w-[1.875rem] h-[1.875rem] rounded-full hover:bg-primary transition-all duration-300 flex justify-center items-center text-sm hover:-translate-y-[2px] ${
+        dark
+          ? "bg-[#3a3c45] text-white"
+          : "bg-[#def5ee] text-primary hover:text-white"
+      }`}
     >
       <FaLinkedinIn />
-    </motion.a>
-    <motion.a
-      whileHover={{ y: -2 }}
-      transition={{ duration: 0.3, ease: "linear" }}
+    </a>
+    <a
       href="https://instagram.com"
       target="_blank"
-      className="w-[1.875rem] h-[1.875rem] rounded-full text-primary bg-[#def5ee] hover:bg-primary hover:text-white transition-all duration-500 flex justify-center items-center text-sm"
+      className={`w-[1.875rem] h-[1.875rem] rounded-full hover:bg-primary transition-all duration-300 flex justify-center items-center text-sm hover:-translate-y-[2px] ${
+        dark
+          ? "bg-[#3a3c45] text-white"
+          : "bg-[#def5ee] text-primary hover:text-white"
+      }`}
     >
       <FaInstagram />
-    </motion.a>
+    </a>
   </div>
 );
 
