@@ -14,7 +14,7 @@ const SocialIcons = ({ center, dark }) => (
     <a
       href="https://facebook.com"
       target="_blank"
-      className={`w-[1.875rem] h-[1.875rem] rounded-full hover:bg-primary transition-all duration-300 flex justify-center items-center text-sm hover:-translate-y-[2px] ${
+      className={`w-30px h-30px rounded-full hover:bg-primary transition-all duration-300 flex justify-center items-center text-sm hover:-translate-y-[2px] ${
         dark
           ? "bg-[#3a3c45] text-white"
           : "bg-[#def5ee] text-primary hover:text-white"
@@ -25,7 +25,7 @@ const SocialIcons = ({ center, dark }) => (
     <a
       href="https://twitter.com"
       target="_blank"
-      className={`w-[1.875rem] h-[1.875rem] rounded-full hover:bg-primary transition-all duration-300 flex justify-center items-center text-sm hover:-translate-y-[2px] ${
+      className={`w-30px h-30px rounded-full hover:bg-primary transition-all duration-300 flex justify-center items-center text-sm hover:-translate-y-[2px] ${
         dark
           ? "bg-[#3a3c45] text-white"
           : "bg-[#def5ee] text-primary hover:text-white"
@@ -36,7 +36,7 @@ const SocialIcons = ({ center, dark }) => (
     <a
       href="https://linkedin.com"
       target="_blank"
-      className={`w-[1.875rem] h-[1.875rem] rounded-full hover:bg-primary transition-all duration-300 flex justify-center items-center text-sm hover:-translate-y-[2px] ${
+      className={`w-30px h-30px rounded-full hover:bg-primary transition-all duration-300 flex justify-center items-center text-sm hover:-translate-y-[2px] ${
         dark
           ? "bg-[#3a3c45] text-white"
           : "bg-[#def5ee] text-primary hover:text-white"
@@ -47,7 +47,7 @@ const SocialIcons = ({ center, dark }) => (
     <a
       href="https://instagram.com"
       target="_blank"
-      className={`w-[1.875rem] h-[1.875rem] rounded-full hover:bg-primary transition-all duration-300 flex justify-center items-center text-sm hover:-translate-y-[2px] ${
+      className={`w-30px h-30px rounded-full hover:bg-primary transition-all duration-300 flex justify-center items-center text-sm hover:-translate-y-[2px] ${
         dark
           ? "bg-[#3a3c45] text-white"
           : "bg-[#def5ee] text-primary hover:text-white"

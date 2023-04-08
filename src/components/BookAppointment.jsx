@@ -48,20 +48,20 @@ const BookAppointment = () => {
       className="bg-fixed bg-cover section-py"
     >
       <div className="container flex justify-center">
-        <div className="md:max-w-[630px] relative lg:max-w-[700px] w-full bg-white px-6 py-[1.875rem] md:p-[3.125rem] shadow-appointment md:ml-auto lg:mr-28 before:absolute before:content-[''] before:bg-white before:w-[96%] before:opacity-60 before:h-1/2 before:-bottom-5 before:left-0 before:right-0 before:m-auto before:rounded-[3px]">
+        <div className="md:max-w-[630px] relative lg:max-w-[700px] w-full bg-white px-6 py-30px md:p-[3.125rem] shadow-appointment md:ml-auto lg:mr-28 before:absolute before:content-[''] before:bg-white before:w-[96%] before:opacity-60 before:h-1/2 before:-bottom-5 before:left-0 before:right-0 before:m-auto before:rounded-[3px]">
           <SectionTitle
             center={false}
             title="Book Appointment"
             heading="We are here for you"
-            className="text-center md:text-left mb-6 md:mb-[1.875rem]"
+            className="text-center md:text-left mb-6 md:mb-30px"
           />
 
           <form>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-6 md:gap-y-[1.875rem]">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-6 md:gap-y-30px">
               <div className="relative pl-10 md:pl-[3.25rem] flex flex-col">
                 <label
                   htmlFor="name"
-                  className="mb-2 uppercase text-textPrimary font-medium text-xs md:text-[0.8125rem] font-poppins"
+                  className="mb-2 uppercase text-textPrimary font-medium text-xs md:text-13px font-poppins"
                 >
                   Your name
                 </label>
@@ -71,7 +71,7 @@ const BookAppointment = () => {
                   placeholder="Enter Your Name"
                   id="name"
                   name="name"
-                  className="border-b border-b-[#eeeeee] font-semibold pb-2 text-secondary transition-all outline-none duration-500 focus:border-b-primary focus:outline-none text-sm md:text-[0.9375rem] lg:text-[1.0625rem] placeholder:text-secondary font-poppins"
+                  className="border-b border-b-[#eeeeee] font-semibold pb-2 text-secondary transition-all outline-none duration-500 focus:border-b-primary focus:outline-none text-sm md:text-15px lg:text-17px placeholder:text-secondary font-poppins"
                 />
 
                 <div className="absolute left-0 top-1/2 -translate-y-[50%] text-primary text-3xl">
@@ -82,7 +82,7 @@ const BookAppointment = () => {
               <div className="relative pl-10 md:pl-[3.25rem] flex flex-col">
                 <label
                   htmlFor="email"
-                  className="mb-2 uppercase text-textPrimary font-medium text-xs md:text-[0.8125rem] font-poppins"
+                  className="mb-2 uppercase text-textPrimary font-medium text-xs md:text-13px font-poppins"
                 >
                   Your email
                 </label>
@@ -92,7 +92,7 @@ const BookAppointment = () => {
                   placeholder="Enter Email Address"
                   id="email"
                   name="email"
-                  className="border-b border-b-[#eeeeee] font-semibold pb-2 text-secondary transition-all outline-none duration-500 focus:border-b-primary focus:outline-none text-sm md:text-[0.9375rem] lg:text-[1.0625rem] placeholder:text-secondary font-poppins"
+                  className="border-b border-b-[#eeeeee] font-semibold pb-2 text-secondary transition-all outline-none duration-500 focus:border-b-primary focus:outline-none text-sm md:text-15px lg:text-17px placeholder:text-secondary font-poppins"
                 />
 
                 <div className="absolute left-0 top-1/2 -translate-y-[50%] text-primary text-3xl">
@@ -103,14 +103,14 @@ const BookAppointment = () => {
               <div className="relative pl-10 md:pl-[3.25rem] flex flex-col">
                 <label
                   htmlFor="name"
-                  className="mb-2 uppercase text-textPrimary font-medium text-xs md:text-[0.8125rem] font-poppins"
+                  className="mb-2 uppercase text-textPrimary font-medium text-xs md:text-13px font-poppins"
                 >
                   Select your services
                 </label>
 
                 <span
                   id="service-select"
-                  className="border-b border-b-[#eeeeee] font-semibold pb-2 text-secondary transition-all duration-500 text-sm md:text-[0.9375rem] lg:text-[1.0625rem] capitalize flex items-center justify-between cursor-pointer font-poppins"
+                  className="border-b border-b-[#eeeeee] font-semibold pb-2 text-secondary transition-all duration-500 text-sm md:text-15px lg:text-17px capitalize flex items-center justify-between cursor-pointer font-poppins"
                   onClick={handleOpen}
                 >
                   {currentService}{" "}
@@ -137,7 +137,7 @@ const BookAppointment = () => {
                     <li
                       key={`service-${index}`}
                       onClick={() => handleChangeService(service)}
-                      className={`text-[0.9375rem] font-poppins px-5 cursor-pointer leading-[2.5rem] min-h-[2.5rem] capitalize transition-all duration-300 hover:bg-primary  hover:text-white ${
+                      className={`text-15px font-poppins px-5 cursor-pointer leading-[2.5rem] min-h-[2.5rem] capitalize transition-all duration-300 hover:bg-primary  hover:text-white ${
                         currentService === service ? "font-bold" : ""
                       }`}
                     >
@@ -150,7 +150,7 @@ const BookAppointment = () => {
               <div className="relative pl-10 md:pl-[3.25rem] flex flex-col">
                 <label
                   htmlFor="phone"
-                  className="mb-2 uppercase text-textPrimary font-medium text-xs md:text-[0.8125rem] font-poppins"
+                  className="mb-2 uppercase text-textPrimary font-medium text-xs md:text-13px font-poppins"
                 >
                   Your phone
                 </label>
@@ -160,7 +160,7 @@ const BookAppointment = () => {
                   placeholder="Enter Your Phone"
                   id="phone"
                   name="phone"
-                  className="border-b border-b-[#eeeeee] font-semibold pb-2 text-secondary transition-all outline-none duration-500 focus:border-b-primary focus:outline-none text-sm md:text-[0.9375rem] lg:text-[1.0625rem] placeholder:text-secondary font-poppins"
+                  className="border-b border-b-[#eeeeee] font-semibold pb-2 text-secondary transition-all outline-none duration-500 focus:border-b-primary focus:outline-none text-sm md:text-15px lg:text-17px placeholder:text-secondary font-poppins"
                 />
 
                 <div className="absolute left-0 top-1/2 -translate-y-[50%] text-primary text-3xl">
@@ -169,7 +169,7 @@ const BookAppointment = () => {
               </div>
             </div>
 
-            <div className="text-center mt-[1.875rem] md:mt-[2.25rem]">
+            <div className="text-center mt-30px md:mt-[2.25rem]">
               <Button icon={<FaChevronRight />}>Make Appointment</Button>
             </div>
           </form>

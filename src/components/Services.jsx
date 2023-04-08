@@ -17,7 +17,7 @@ const Services = () => {
           className="mb-[2.1875rem] md:mb-[3.75rem]"
         />
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-[1.875rem]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-30px">
           {services.map((service, index) => (
             <div
               key={`service-${index}`}
@@ -32,13 +32,13 @@ const Services = () => {
                 <h3>
                   <Link
                     to={service.url}
-                    className="block text-[1.0625rem] transition-all duration-500 text-secondary md:text-[1.25rem] font-bold group-hover:text-white"
+                    className="block text-17px transition-all duration-500 text-secondary md:text-[1.25rem] font-bold group-hover:text-white"
                   >
                     {service.name}
                   </Link>
                 </h3>
 
-                <p className="block mt-3 text-[0.8125rem] md:text-[0.9375rem] transition-all duration-500 group-hover:text-white">
+                <p className="block mt-3 text-13px md:text-15px transition-all duration-500 group-hover:text-white">
                   {service.desc}
                 </p>
 

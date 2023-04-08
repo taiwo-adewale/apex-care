@@ -6,7 +6,7 @@ const SectionTitle = ({ center, title, heading, desc, className }) => {
       }`}
     >
       {title && (
-        <span className="text-sm md:text-base lg:text-[1.0625rem] mb-1.5 block text-primary">
+        <span className="text-sm md:text-base lg:text-17px mb-1.5 block text-primary">
           {title}
         </span>
       )}
@@ -19,7 +19,7 @@ const SectionTitle = ({ center, title, heading, desc, className }) => {
 
       {desc && (
         <p
-          className={`block mt-2 text-[0.8125rem] md:mt-2.5 md:text-[0.9375rem] ${
+          className={`block mt-2 text-13px md:mt-2.5 md:text-15px ${
             center ? "md:max-w-[520px] md:mx-auto" : ""
           }`}
         >

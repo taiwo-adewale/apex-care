@@ -18,6 +18,14 @@ module.exports = {
         secondary: "#121521", // rgb(18,21,33)
         textPrimary: "#7D7D7D", // rgb(125,125,125)
       },
+      spacing: {
+        "30px": "1.875rem",
+      },
+      fontSize: {
+        "13px": "0.8125rem",
+        "15px": "0.9375rem",
+        "17px": "1.0625rem",
+      },
       backgroundImage: {
         "map-pattern": "url('/src/assets/map-bg.png')",
       },

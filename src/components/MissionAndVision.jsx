@@ -6,12 +6,12 @@ import SectionTitle from "./SectionTitle";
 
 const MissionAndVision = () => {
   return (
-    <section className="section-py relative">
+    <section className="relative section-py">
       <div className="container lg:px-0 lg:mx-0 lg:max-w-none lg:w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div
             style={{ backgroundImage: `url('${missionImg}')` }}
-            className="border-1 lg:order-2 bg-center bg-cover bg-no-repeat"
+            className="order-1 bg-center bg-no-repeat bg-cover lg:order-2"
           >
             <img
               src={missionImg}
@@ -20,12 +20,12 @@ const MissionAndVision = () => {
             />
           </div>
 
-          <div className="lg:py-[3.75rem] lg:pr-[1.875rem] lg:ml-auto lg:max-xl:max-w-[480px] xl:max-w-[584px] order-2 lg:order-1">
+          <div className="lg:py-[3.75rem] lg:pr-30px lg:ml-auto lg:max-xl:max-w-[480px] xl:max-w-[584px] xl:pr-[3.125rem] order-2 lg:order-1">
             <SectionTitle
               title="Our Mission & Vision"
               heading="Better Information, Better Health"
               desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-              className="mt-[1.875rem] text-center md:text-left"
+              className="text-center mt-30px lg:mt-0 md:text-left"
             />
 
             <ul className="grid max-[359px]:grid-cols-1 grid-cols-2 pt-6 gap-x-2.5 gap-y-7">
@@ -43,11 +43,11 @@ const MissionAndVision = () => {
                     <GiLiver />
                   </div>
 
-                  <span className="capitalize md:uppercase text-secondary text-base block font-semibold mb-1.5 md:text-[1.0625rem]">
+                  <span className="capitalize md:uppercase text-secondary text-base block font-semibold mb-1.5 md:text-17px">
                     {item}
                   </span>
 
-                  <p className="text-[0.8125rem] md:text-[0.9375rem]">
+                  <p className="text-13px md:text-15px">
                     Lorem ipsum dolor sit amet sit, consectetur adipiscing elit.
                   </p>
                 </li>
@@ -57,7 +57,7 @@ const MissionAndVision = () => {
         </div>
       </div>
 
-      <div className="absolute left-0 bottom-0 -z-1">
+      <div className="absolute bottom-0 left-0 -z-1">
         <img src={shape3} alt="" className="opacity-60" />
       </div>
     </section>

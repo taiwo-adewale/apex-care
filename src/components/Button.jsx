@@ -5,7 +5,7 @@ const Button = ({ children, href, icon, onClick, className }) => {
     return (
       <Link
         to={href}
-        className={`bg-primary hover:bg-secondary rounded-full transition-all duration-500 text-white text-[0.8125rem] md:text-sm uppercase cursor-pointer font-medium relative inline-block group ${
+        className={`bg-primary hover:bg-secondary rounded-full transition-all duration-500 text-white text-13px md:text-sm uppercase cursor-pointer font-medium relative inline-block group ${
           icon ? "pl-6 pr-[3.125rem] py-3.5 md:py-4" : "px-6 py-3.5"
         } ${className ? className : ""}`}
       >
@@ -25,7 +25,7 @@ const Button = ({ children, href, icon, onClick, className }) => {
   return (
     <button
       onClick={onClick}
-      className={`bg-primary hover:bg-secondary rounded-full transition-all duration-500 text-white text-[0.8125rem] md:text-sm uppercase cursor-pointer font-medium relative inline-block group ${
+      className={`bg-primary hover:bg-secondary rounded-full transition-all duration-500 text-white text-13px md:text-sm uppercase cursor-pointer font-medium relative inline-block group ${
         icon ? "pl-6 pr-[3.125rem] py-3.5 md:py-4" : "px-6 py-3.5"
       } ${className ? className : ""}`}
     >
