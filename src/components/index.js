@@ -8,3 +8,4 @@ export { default as SectionTitle } from "./SectionTitle";
 export { default as Doctors } from "./Doctors";
 export { default as BookAppointment } from "./BookAppointment";
 export { default as MissionAndVision } from "./MissionAndVision";
+export { default as About } from "./About";
