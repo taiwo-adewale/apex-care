@@ -130,3 +130,21 @@ export const servicesList = [
   "neurosurgery",
   "bariatric surgery",
 ];
+
+export const departments = [
+  "Surgery and Radiology",
+  "Departments",
+  "Family",
+  "Our Doctors",
+  "Woman's Health",
+  "Blog",
+];
+
+export const links = [
+  "Optician",
+  "Shop",
+  "Pediatrics",
+  "Contact Us",
+  "Dermatology",
+  "Doctors",
+];

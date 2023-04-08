@@ -74,7 +74,7 @@ const Doctors = () => {
                     </span>
                   </div>
 
-                  <SocialIcons />
+                  <SocialIcons center={true} dark={false} />
                 </motion.div>
               </SwiperSlide>
             ))}
