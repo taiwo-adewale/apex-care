@@ -16,7 +16,7 @@ const About = () => {
             <img
               src={aboutImg}
               alt="apexcare doctor"
-              className="w-full lg:hidden"
+              className="w-full lg:hidden relative z-[1]"
             />
           </div>
 
@@ -29,12 +29,17 @@ const About = () => {
             />
 
             <ul className="grid grid-cols-1 mt-6 sm:grid-cols-2 md:grid-cols-1">
-              {[1, 2, 3, 4].map((item, index) => (
+              {[
+                "Scientific Skills For getting a better result",
+                "Communication Skills to getting in touch",
+                "A Career Overview opportunity Available",
+                "A good Work Environment For work",
+              ].map((item, index) => (
                 <li
                   key={`about-${index}`}
                   className="relative mb-4 pl-[2.125rem] text-[#212529] text-13px last:mb-0 md:text-15px group w-fit"
                 >
-                  Scientific Skills For getting a better result
+                  {item}
                   <div className="absolute w-[1.5625rem] h-[1.5625rem] rounded-pick group-hover:bg-primary group-hover:text-white flex justify-center items-center bg-[#d2f5e1] text-primary transition-all duration-500 left-0 -top-0.5 text-xs">
                     <FaCheck />
                   </div>

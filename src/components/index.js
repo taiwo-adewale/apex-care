@@ -9,3 +9,7 @@ export { default as Doctors } from "./Doctors";
 export { default as BookAppointment } from "./BookAppointment";
 export { default as MissionAndVision } from "./MissionAndVision";
 export { default as About } from "./About";
+export { default as Features } from "./Features";
+export { default as Faq } from "./Faq";
+export { default as Feedback } from "./Feedback";
+export { default as FeaturedCustomers } from "./FeaturedCustomers";

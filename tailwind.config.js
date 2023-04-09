@@ -38,6 +38,7 @@ module.exports = {
         appointment: "0 2px 48px 0 rgba(0, 0, 0, 0.08)",
         doctor: "0 10px 55px 5px rgba(137, 173, 255, 0.1)",
         "mission-circle": "0 10px 55px 5px rgba(137, 173, 255, 0.3)",
+        faq: "0 0 1.25rem rgba(108, 118, 134, 0.1)  ",
       },
       borderRadius: {
         pick: "70% 30% 30% 70% / 60% 40% 60% 40%",
@@ -46,6 +47,17 @@ module.exports = {
         rubik: ["Rubik", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
       },
+      keyframes: {
+        moveBounce: {
+          "0%, 100%": {
+            transform: "translateY(0px)",
+          },
+          "50%": {
+            transform: "translateY(20px)",
+          },
+        },
+      },
+      animation: { moveBounce: "moveBounce 5s linear infinite" },
     },
   },
 };

@@ -24,3 +24,7 @@ p {
 .container {
   @apply px-3 md:px-4;
 }
+
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
