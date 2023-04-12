@@ -250,3 +250,26 @@ export const heroItems = [
     bgImage: heroBg3,
   },
 ];
+
+export const navLinks = [
+  {
+    name: "Home",
+    url: "/",
+  },
+  {
+    name: "About",
+    url: "/",
+  },
+  {
+    name: "Profile",
+    url: "/",
+  },
+  {
+    name: "Services",
+    url: "/",
+  },
+  {
+    name: "Contact",
+    url: "/",
+  },
+];

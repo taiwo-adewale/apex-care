@@ -66,11 +66,20 @@ module.exports = {
             transform: "rotate(-360deg)",
           },
         },
+        navDrop: {
+          "0%": {
+            top: "-90px",
+          },
+          "100%": {
+            top: 0,
+          },
+        },
       },
       animation: {
         moveBounce: "moveBounce 5s linear infinite",
         "spin-slow": "spin 40s linear infinite",
         "spin-reverse-slow": "spinReverse 40s linear infinite",
+        "nav-drop": "navDrop 0.5s ease-in-out forwards",
       },
     },
   },

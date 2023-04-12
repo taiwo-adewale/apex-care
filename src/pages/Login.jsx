@@ -6,15 +6,15 @@ import missionImg from "../assets/mission-img.jpg";
 
 const Login = () => {
   return (
-    <main className="py-20">
+    <main className="py-14 md:py-20">
       <div className="container">
-        <section className="bg-white overflow-hidden w-full rounded-md border-b-8 border-b-primary mx-auto flex shadow-[rgba(0,0,0,0.24)_0px_3px_8px] max-w-[940px]">
+        <section className="bg-white overflow-hidden w-full rounded-md border-b-8 border-b-primary mx-auto flex flex-wrap md:flex-nowrap shadow-[rgba(0,0,0,0.24)_0px_3px_8px] max-w-[940px]">
           <div
-            className="w-1/2"
+            className="w-full md:w-1/2 bg-cover bg-center bg-no-repeat min-h-[300px]"
             style={{ backgroundImage: `url('${missionImg}')` }}
           ></div>
 
-          <div className="w-1/2 px-12 py-20 text-center">
+          <div className="w-full md:w-1/2 px-6 md:px-12 py-12 md:py-20 text-center">
             <h2 className="text-4xl font-bold text-secondary">ApexCare</h2>
             <p className="text-textPrimary text-13px md:text-15px block mt-2">
               Welcome back! Please login to your account.
