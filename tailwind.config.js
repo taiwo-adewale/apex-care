@@ -41,6 +41,9 @@ module.exports = {
         doctor: "0 10px 55px 5px rgba(137, 173, 255, 0.1)",
         "mission-circle": "0 10px 55px 5px rgba(137, 173, 255, 0.3)",
         faq: "0 0 1.25rem rgba(108, 118, 134, 0.1)",
+        feedback: "0 10px 55px 5px rgba(137, 173, 255, 0.2)",
+        "feedback-layer": "0 30px 10px -20px rgba(0, 0, 0, 0.04)",
+        "feedback-layer-2": "0 30px 10px -20px rgba(0, 0, 0, 0.03)",
       },
       borderRadius: {
         pick: "70% 30% 30% 70% / 60% 40% 60% 40%",
