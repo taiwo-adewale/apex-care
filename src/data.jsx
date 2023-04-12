@@ -6,6 +6,10 @@ import {
 } from "react-icons/fa";
 import { GiLiver } from "react-icons/gi";
 
+import heroBg1 from "./assets/hero-bg-1.jpg";
+import heroBg2 from "./assets/hero-bg-2.jpg";
+import heroBg3 from "./assets/hero-bg-3.jpg";
+
 import service01 from "./assets/service-1.jpg";
 import service02 from "./assets/service-2.jpg";
 import service03 from "./assets/service-3.jpg";
@@ -18,6 +22,16 @@ import doctor02 from "./assets/doctor-2.jpg";
 import doctor03 from "./assets/doctor-3.jpg";
 import doctor04 from "./assets/doctor-4.jpg";
 import doctor05 from "./assets/doctor-5.jpg";
+
+import customer1 from "./assets/customer-1.png";
+import customer2 from "./assets/customer-2.png";
+import customer3 from "./assets/customer-3.png";
+import customer4 from "./assets/customer-4.png";
+import customer5 from "./assets/customer-5.png";
+import customer6 from "./assets/customer-6.png";
+import customer7 from "./assets/customer-7.png";
+import customer8 from "./assets/customer-8.png";
+import customer9 from "./assets/customer-9.png";
 
 export const funFacts = [
   {
@@ -174,5 +188,65 @@ export const faqs = [
     title: "How are residents supervised?",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.",
+  },
+];
+
+export const featuredCustomers = [
+  {
+    url: "",
+    image: customer1,
+  },
+  {
+    url: "",
+    image: customer2,
+  },
+  {
+    url: "",
+    image: customer3,
+  },
+  {
+    url: "",
+    image: customer4,
+  },
+  {
+    url: "",
+    image: customer5,
+  },
+  {
+    url: "",
+    image: customer6,
+  },
+  {
+    url: "",
+    image: customer7,
+  },
+  {
+    url: "",
+    image: customer8,
+  },
+  {
+    url: "",
+    image: customer9,
+  },
+];
+
+export const heroItems = [
+  {
+    title: "Best Healing Service",
+    heading: "ApexCare is the No. 1 Hospital",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna Quis ipsumpsum dolor sit amet consectetur.",
+    bgImage: heroBg1,
+  },
+  {
+    title: "Women Care",
+    heading: "Exceptional Care for Women",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna Quis ipsumpsum dolor sit amet consectetur.",
+    bgImage: heroBg2,
+  },
+  {
+    title: "Health Service",
+    heading: "Your Health is Our Top Priority",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna Quis ipsumpsum dolor sit amet consectetur.",
+    bgImage: heroBg3,
   },
 ];

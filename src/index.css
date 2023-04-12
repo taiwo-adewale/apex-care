@@ -28,3 +28,20 @@ p {
 .ReactCollapse--collapse {
   transition: height 500ms;
 }
+
+.hero:hover .swiper-button-prev,
+.hero:hover .swiper-button-next {
+  @apply opacity-100 pointer-events-auto;
+}
+
+.swiper-pagination {
+  @apply !bottom-[1.625rem];
+}
+
+.swiper-pagination-bullet {
+  @apply w-4 h-[3px] bg-secondary hover:bg-primary opacity-100 !mx-0.5 rounded-none transition-all duration-500;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  @apply w-7 !bg-primary;
+}

@@ -28,7 +28,7 @@ const About = () => {
               className="text-center mt-30px lg:mt-0 md:text-left"
             />
 
-            <ul className="grid grid-cols-1 mt-6 sm:grid-cols-2 md:grid-cols-1">
+            <ul className="grid grid-cols-1 mt-6 sm:grid-cols-2 md:grid-cols-1 gap-x-2">
               {[
                 "Scientific Skills For getting a better result",
                 "Communication Skills to getting in touch",

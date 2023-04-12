@@ -5,9 +5,9 @@ import {
   FaLinkedinIn,
 } from "react-icons/fa";
 
-const SocialIcons = ({ center, dark }) => (
+const SocialIcons = ({ center, dark, className }) => (
   <div
-    className={`flex gap-2 mt-[1.125rem] ${
+    className={`flex gap-2 mt-[1.125rem] ${className ? className : ""} ${
       center ? "justify-center" : "justify-start"
     }`}
   >

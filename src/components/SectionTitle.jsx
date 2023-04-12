@@ -6,7 +6,7 @@ const SectionTitle = ({ center, title, heading, desc, className }) => {
       }`}
     >
       {title && (
-        <span className="text-sm md:text-base lg:text-17px mb-1.5 block text-primary">
+        <span className="text-sm md:text-base lg:text-17px mb-1.5 block text-primary font-medium">
           {title}
         </span>
       )}

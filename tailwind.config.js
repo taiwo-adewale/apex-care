@@ -19,6 +19,7 @@ module.exports = {
         textPrimary: "#7D7D7D", // rgb(125,125,125)
       },
       spacing: {
+        "25px": "1.5625rem",
         "30px": "1.875rem",
       },
       fontSize: {
@@ -34,11 +35,12 @@ module.exports = {
         "alt-section": "#f4f9fd", // rgb(244,249,253)
       },
       boxShadow: {
+        nav: "0px 15px 10px -15px rgba(0, 0, 0, 0.04)",
         pick: "0 10px 55px 5px rgba(137, 173, 255, 0.2)",
         appointment: "0 2px 48px 0 rgba(0, 0, 0, 0.08)",
         doctor: "0 10px 55px 5px rgba(137, 173, 255, 0.1)",
         "mission-circle": "0 10px 55px 5px rgba(137, 173, 255, 0.3)",
-        faq: "0 0 1.25rem rgba(108, 118, 134, 0.1)  ",
+        faq: "0 0 1.25rem rgba(108, 118, 134, 0.1)",
       },
       borderRadius: {
         pick: "70% 30% 30% 70% / 60% 40% 60% 40%",
@@ -56,8 +58,20 @@ module.exports = {
             transform: "translateY(20px)",
           },
         },
+        spinReverse: {
+          "0%": {
+            transform: "rotate(0deg)",
+          },
+          "100%": {
+            transform: "rotate(-360deg)",
+          },
+        },
       },
-      animation: { moveBounce: "moveBounce 5s linear infinite" },
+      animation: {
+        moveBounce: "moveBounce 5s linear infinite",
+        "spin-slow": "spin 40s linear infinite",
+        "spin-reverse-slow": "spinReverse 40s linear infinite",
+      },
     },
   },
 };

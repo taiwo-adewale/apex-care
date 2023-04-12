@@ -1,4 +1,5 @@
 import {
+  Hero,
   Doctors,
   FunFacts,
   Services,
@@ -14,6 +15,7 @@ import {
 const Home = () => {
   return (
     <div>
+      <Hero />
       <Features />
       <About />
       <MissionAndVision />

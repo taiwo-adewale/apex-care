@@ -31,7 +31,7 @@ const Features = () => {
                   <GiLiver />
                 </div>
 
-                <h3 className="block relative text-17px transition-all duration-500 text-secondary md:text-[1.25rem] font-bold group-hover:text-white before:content-[''] before:w-0 before:h-[1px] before:absolute before:left-0 before:bottom-0 before:bg-white before:group-hover:w-20 before:transition-all before:duration-500">
+                <h3 className="block relative text-17px transition-all duration-500 text-secondary md:text-[1.25rem] font-bold group-hover:text-white before:content-[''] before:w-0 before:h-[1px] before:absolute before:left-1/2 before:max-md:-translate-x-1/2 before:md:left-0 before:bottom-0 before:bg-white before:group-hover:w-20 before:transition-all before:duration-500">
                   {feature}
                 </h3>
 
@@ -47,7 +47,7 @@ const Features = () => {
         </div>
       </div>
 
-      <div className="absolute -bottom-[7.5rem] right-0 -z-1 animate-moveBounce">
+      <div className="absolute -bottom-[7.5rem] right-0 -z-1 animate-moveBounce select-none">
         <img src={shape2} alt="" className="opacity-70" />
       </div>
     </section>
