@@ -52,7 +52,7 @@ const Faq = () => {
                     {ques.title}
 
                     <span
-                      className={`text-white absolute left-0 top-0 w-10 flex justify-center items-center h-full transition-all duration-500 text-xs ${
+                      className={`text-white absolute left-0 top-0 w-10 flex justify-center items-center h-full transition-500 text-xs ${
                         open === index ? "bg-primary" : "bg-[#d2f5e1]"
                       }`}
                     >
@@ -65,7 +65,7 @@ const Faq = () => {
                   </span>
 
                   <Collapse isOpened={open === index}>
-                    <p className="p-4 text-13px md:text-sm !leading-[1.8] transition-all duration-500 block">
+                    <p className="p-4 text-13px md:text-sm !leading-[1.8] transition-500 block">
                       {ques.content}
                     </p>
                   </Collapse>

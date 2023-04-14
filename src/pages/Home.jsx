@@ -1,14 +1,14 @@
 import {
   Hero,
-  Doctors,
-  FunFacts,
-  Services,
-  BookAppointment,
-  MissionAndVision,
-  About,
   Features,
-  Faq,
+  AboutUs,
+  MissionAndVision,
+  FunFacts,
+  OurServices,
+  Doctors,
+  BookAppointment,
   Feedback,
+  Faq,
   FeaturedCustomers,
 } from "../components";
 
@@ -17,10 +17,10 @@ const Home = () => {
     <div>
       <Hero />
       <Features />
-      <About />
+      <AboutUs slice={4} />
       <MissionAndVision />
       <FunFacts />
-      <Services />
+      <OurServices sectionTitle={false} slice={6} />
       <Doctors />
       <BookAppointment />
       <Feedback />

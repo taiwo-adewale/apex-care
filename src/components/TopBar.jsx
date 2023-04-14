@@ -9,7 +9,7 @@ const TopBar = () => {
       <div className="container flex justify-between">
         <ul className="flex space-x-25px">
           <li className="flex group space-x-2 items-center">
-            <span className="w-25px h-25px rounded-full group-hover:bg-primary transition-all duration-300 flex justify-center items-center text-xs bg-[#def5ee] text-primary group-hover:text-white">
+            <span className="w-25px h-25px rounded-full group-hover:bg-primary transition-300 flex justify-center items-center text-xs bg-[#def5ee] text-primary group-hover:text-white">
               <BsClock />
             </span>
             <span className="text-secondary text-sm">
@@ -18,14 +18,14 @@ const TopBar = () => {
           </li>
 
           <li className="flex group space-x-2 items-center">
-            <span className="w-25px h-25px rounded-full group-hover:bg-primary transition-all duration-300 flex justify-center items-center text-xs bg-[#def5ee] text-primary group-hover:text-white">
+            <span className="w-25px h-25px rounded-full group-hover:bg-primary transition-300 flex justify-center items-center text-xs bg-[#def5ee] text-primary group-hover:text-white">
               <BsTelephoneFill />
             </span>
             <span className="text-secondary text-sm">
               Call Us:{" "}
               <a
                 href="tel:+2345543323224"
-                className="hover:text-primary transition-all duration-300"
+                className="hover:text-primary transition-300"
               >
                 +234 554 332 3224
               </a>
@@ -33,12 +33,12 @@ const TopBar = () => {
           </li>
 
           <li className="flex group space-x-2 items-center">
-            <span className="w-25px h-25px rounded-full group-hover:bg-primary transition-all duration-300 flex justify-center items-center text-sm bg-[#def5ee] text-primary group-hover:text-white">
+            <span className="w-25px h-25px rounded-full group-hover:bg-primary transition-300 flex justify-center items-center text-sm bg-[#def5ee] text-primary group-hover:text-white">
               <IoMdPaperPlane />
             </span>
             <a
               href="mailto:observation@okay.com"
-              className="text-secondary text-sm hover:text-primary transition-all duration-300"
+              className="text-secondary text-sm hover:text-primary transition-300"
             >
               observation@okay.com
             </a>

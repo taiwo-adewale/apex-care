@@ -16,6 +16,9 @@ import service03 from "./assets/service-3.jpg";
 import service04 from "./assets/service-4.jpg";
 import service05 from "./assets/service-5.jpg";
 import service06 from "./assets/service-6.jpg";
+import service07 from "./assets/service-7.jpg";
+import service08 from "./assets/service-8.jpg";
+import service09 from "./assets/service-9.jpg";
 
 import doctor01 from "./assets/doctor-1.jpg";
 import doctor02 from "./assets/doctor-2.jpg";
@@ -32,6 +35,12 @@ import customer6 from "./assets/customer-6.png";
 import customer7 from "./assets/customer-7.png";
 import customer8 from "./assets/customer-8.png";
 import customer9 from "./assets/customer-9.png";
+
+import feedback1 from "./assets/feedback-1.jpg";
+import feedback2 from "./assets/feedback-2.jpg";
+import feedback3 from "./assets/feedback-3.jpg";
+import feedback4 from "./assets/feedback-4.jpg";
+import feedback5 from "./assets/feedback-5.jpg";
 
 export const funFacts = [
   {
@@ -102,6 +111,27 @@ export const services = [
     url: "/",
     icon: <GiLiver />,
     bgImg: service06,
+  },
+  {
+    name: "Ophthalmology",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    url: "/",
+    icon: <GiLiver />,
+    bgImg: service07,
+  },
+  {
+    name: "Otolaryngology",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    url: "/",
+    icon: <GiLiver />,
+    bgImg: service08,
+  },
+  {
+    name: "Internal Medicine",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    url: "/",
+    icon: <GiLiver />,
+    bgImg: service09,
   },
 ];
 
@@ -258,18 +288,114 @@ export const navLinks = [
   },
   {
     name: "About",
-    url: "/",
+    url: "/about",
   },
   {
     name: "Profile",
-    url: "/",
+    url: "/profile",
   },
   {
     name: "Services",
-    url: "/",
+    url: "/services",
   },
   {
     name: "Contact",
-    url: "/",
+    url: "/contact",
   },
+];
+
+export const feedbacks = [
+  {
+    name: "John Lucy",
+    role: "Founding Partner",
+    message:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, quis aliquam! Ullam officia veritatis laborum. Voluptates molestias aperiam alias, cupiditate, ea saepe temporibus nostrum numquam nisi quidem atque tempora.",
+    img: feedback2,
+  },
+  {
+    name: "John Smith",
+    role: "Web Developer",
+    message:
+      "Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.",
+    img: feedback4,
+  },
+  {
+    name: "Maxwell Warner",
+    role: "Web Designer",
+    message:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quibusdam sit quaerat at fugiat labore eum, ipsum error repudiandae porro quae, ut illum? Ut labore officiis fuga vero cum odit tatis laborum Voluptates moles.",
+    img: feedback1,
+  },
+  {
+    name: "Ross Taylor",
+    role: "Patient",
+    message:
+      "Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.",
+    img: feedback5,
+  },
+  {
+    name: "James Anderson",
+    role: "CEO",
+    message:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quam incidunt, eveniet repellat, labore, ipsa aut vel iusto officiis est ducimus saepe! Ea perspiciatis doloribus voluptates fugiat? Quam, suspendisse autem quos?",
+    img: feedback1,
+  },
+  {
+    name: "Steven Smith",
+    role: "Manager",
+    message:
+      "Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.",
+    img: feedback3,
+  },
+  {
+    name: "Steven Lucy",
+    role: "Patient",
+    message:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem obcaecati porro saepe. Similique impedit eum perferendis. Obcaecati, qui, cumque delectus nulla quidem optio odio odit sit itaque, mollitia eveniet tu consequuntur?",
+    img: feedback5,
+  },
+  {
+    name: "John Terry",
+    role: "Patient",
+    message:
+      "Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.",
+    img: feedback3,
+  },
+  {
+    name: "Jake Brown",
+    role: "Graphic Designer",
+    message:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem obcaecati porro saepe. Similique impedit eum perferendis. Obcaecati, qui, cumque delectus nulla quidem optio odio odit sit itaque, mollitia eveniet des consequuntur?",
+    img: feedback2,
+  },
+  {
+    name: "Monkey D Luffy",
+    role: "Patient",
+    message:
+      "Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.",
+    img: feedback4,
+  },
+  {
+    name: "Westlife",
+    role: "HR",
+    message:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem obcaecati porro saepe. Similique impedit eum perferendis. Obcaecati, qui, cumque delectus nulla quidem optio odio odit sit itaque, mollitia eveniet des consequuntur?",
+    img: feedback1,
+  },
+  {
+    name: "Zach King",
+    role: "Co Founder",
+    message:
+      "Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.",
+    img: feedback4,
+  },
+];
+
+export const aboutList = [
+  "Scientific Skills For getting a better result",
+  "Communication Skills to getting in touch",
+  "A Career Overview opportunity Available",
+  "A good Work Environment For work",
+  "Scientific Skills For getting a better result",
+  "Communication Skills to getting in touch",
 ];

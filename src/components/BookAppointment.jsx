@@ -71,7 +71,7 @@ const BookAppointment = () => {
                   placeholder="Enter Your Name"
                   id="name"
                   name="name"
-                  className="border-b border-b-[#eeeeee] font-semibold pb-2 text-secondary transition-all outline-none duration-500 focus:border-b-primary focus:outline-none text-sm md:text-15px lg:text-17px placeholder:text-secondary font-poppins"
+                  className="border-b border-b-[#eeeeee] font-semibold pb-2 text-secondary transition-500 outline-none focus:border-b-primary focus:outline-none text-sm md:text-15px lg:text-17px placeholder:text-secondary font-poppins"
                 />
 
                 <div className="absolute left-0 top-1/2 -translate-y-[50%] text-primary text-3xl">
@@ -92,7 +92,7 @@ const BookAppointment = () => {
                   placeholder="Enter Email Address"
                   id="email"
                   name="email"
-                  className="border-b border-b-[#eeeeee] font-semibold pb-2 text-secondary transition-all outline-none duration-500 focus:border-b-primary focus:outline-none text-sm md:text-15px lg:text-17px placeholder:text-secondary font-poppins"
+                  className="border-b border-b-[#eeeeee] font-semibold pb-2 text-secondary transition-500 outline-none focus:border-b-primary focus:outline-none text-sm md:text-15px lg:text-17px placeholder:text-secondary font-poppins"
                 />
 
                 <div className="absolute left-0 top-1/2 -translate-y-[50%] text-primary text-3xl">
@@ -110,12 +110,12 @@ const BookAppointment = () => {
 
                 <span
                   id="service-select"
-                  className="border-b border-b-[#eeeeee] font-semibold pb-2 text-secondary transition-all duration-500 text-sm md:text-15px lg:text-17px capitalize flex items-center justify-between cursor-pointer font-poppins"
+                  className="border-b border-b-[#eeeeee] font-semibold pb-2 text-secondary transition-500 text-sm md:text-15px lg:text-17px capitalize flex items-center justify-between cursor-pointer font-poppins"
                   onClick={handleOpen}
                 >
                   {currentService}{" "}
                   <FaChevronDown
-                    className={`text-sm transition-all duration-500 ${
+                    className={`text-sm transition-500 ${
                       open ? "rotate-180" : ""
                     }`}
                   />
@@ -127,7 +127,7 @@ const BookAppointment = () => {
 
                 <ul
                   ref={ref}
-                  className={`absolute left-10 md:left-[3.25rem] right-0 overflow-x-hidden overflow-y-scroll py-2.5 bg-white z-20 transition-all duration-500 h-[260px] top-full origin-top shadow-[0_0_29px_0_rgba(102,102,102,0.1)] ${
+                  className={`absolute left-10 md:left-[3.25rem] right-0 overflow-x-hidden overflow-y-scroll py-2.5 bg-white z-20 transition-500 h-[260px] top-full origin-top shadow-[0_0_29px_0_rgba(102,102,102,0.1)] ${
                     open
                       ? "opacity-100 pointer-events-auto scale-100"
                       : "opacity-0 pointer-events-none scale-50"
@@ -137,7 +137,7 @@ const BookAppointment = () => {
                     <li
                       key={`service-${index}`}
                       onClick={() => handleChangeService(service)}
-                      className={`text-15px font-poppins px-5 cursor-pointer leading-[2.5rem] min-h-[2.5rem] capitalize transition-all duration-300 hover:bg-primary  hover:text-white ${
+                      className={`text-15px font-poppins px-5 cursor-pointer leading-[2.5rem] min-h-[2.5rem] capitalize transition-300 hover:bg-primary  hover:text-white ${
                         currentService === service ? "font-bold" : ""
                       }`}
                     >
@@ -160,7 +160,7 @@ const BookAppointment = () => {
                   placeholder="Enter Your Phone"
                   id="phone"
                   name="phone"
-                  className="border-b border-b-[#eeeeee] font-semibold pb-2 text-secondary transition-all outline-none duration-500 focus:border-b-primary focus:outline-none text-sm md:text-15px lg:text-17px placeholder:text-secondary font-poppins"
+                  className="border-b border-b-[#eeeeee] font-semibold pb-2 text-secondary transition-500 outline-none focus:border-b-primary focus:outline-none text-sm md:text-15px lg:text-17px placeholder:text-secondary font-poppins"
                 />
 
                 <div className="absolute left-0 top-1/2 -translate-y-[50%] text-primary text-3xl">

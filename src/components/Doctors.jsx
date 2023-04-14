@@ -81,10 +81,10 @@ const Doctors = () => {
           </Swiper>
 
           <div className="flex justify-center gap-x-2 mt-30px min-[1120px]:mt-0 min-[1200px]:mt-30px min-[1320px]:mt-0">
-            <button className="swiper-button-prev w-10 h-10 lg:w-[45px] lg:h-[45px] rounded-full flex justify-center items-center text-xl lg:text-2xl text-secondary bg-[#f0f0f0] cursor-pointer min-[1120px]:absolute min-[1200px]:static min-[1320px]:absolute -translate-y-1/2 top-1/2 min-[1120px]:-left-8 min-[1320px]:-left-12 z-10 hover:text-white hover:bg-primary transition-all duration-500">
+            <button className="swiper-button-prev w-10 h-10 lg:w-[45px] lg:h-[45px] rounded-full flex justify-center items-center text-xl lg:text-2xl text-secondary bg-[#f0f0f0] cursor-pointer min-[1120px]:absolute min-[1200px]:static min-[1320px]:absolute -translate-y-1/2 top-1/2 min-[1120px]:-left-8 min-[1320px]:-left-12 z-10 hover:text-white hover:bg-primary transition-500">
               <BsArrowLeft />
             </button>
-            <button className="swiper-button-next w-10 h-10 lg:w-[45px] lg:h-[45px] rounded-full flex justify-center items-center text-xl lg:text-2xl text-secondary bg-[#f0f0f0] cursor-pointer min-[1120px]:absolute min-[1200px]:static min-[1320px]:absolute -translate-y-1/2 top-1/2 min-[1120px]:-right-8 min-[1320px]:-right-12 z-10 hover:text-white hover:bg-primary transition-all duration-500">
+            <button className="swiper-button-next w-10 h-10 lg:w-[45px] lg:h-[45px] rounded-full flex justify-center items-center text-xl lg:text-2xl text-secondary bg-[#f0f0f0] cursor-pointer min-[1120px]:absolute min-[1200px]:static min-[1320px]:absolute -translate-y-1/2 top-1/2 min-[1120px]:-right-8 min-[1320px]:-right-12 z-10 hover:text-white hover:bg-primary transition-500">
               <BsArrowRight />
             </button>
           </div>

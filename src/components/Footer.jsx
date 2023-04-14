@@ -64,7 +64,7 @@ const Footer = () => {
               {departments.map((dept, index) => (
                 <li
                   key={`dept-${index}`}
-                  className="text-13px mb-2.5 text-[#cecece] md:text-15px hover:text-primary transition-all duration-300 cursor-pointer w-fit last:mb-0"
+                  className="text-13px mb-2.5 text-[#cecece] md:text-15px hover:text-primary transition-300 cursor-pointer w-fit last:mb-0"
                 >
                   {dept}
                 </li>
@@ -81,7 +81,7 @@ const Footer = () => {
               {links.map((link, index) => (
                 <li
                   key={`dept-${index}`}
-                  className="text-13px mb-2.5 text-[#cecece] md:text-15px hover:text-primary transition-all duration-300 cursor-pointer w-fit last:mb-0"
+                  className="text-13px mb-2.5 text-[#cecece] md:text-15px hover:text-primary transition-300 cursor-pointer w-fit last:mb-0"
                 >
                   {link}
                 </li>

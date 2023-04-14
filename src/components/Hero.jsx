@@ -19,7 +19,7 @@ import shape1 from "../assets/shape-1.png";
 
 const Hero = () => {
   return (
-    <section className="hero relative">
+    <section className="relative hero">
       <Swiper
         slidesPerView={1}
         loop={true}
@@ -56,13 +56,18 @@ const Hero = () => {
                   </p>
 
                   <div className="mt-6 lg:mt-30px flex justify-center md:justify-start max-[400px]:flex-wrap gap-y-2.5 gap-x-3">
-                    <Button icon={<FaBell />} className="max-[400px]:flex-grow">
+                    <Button
+                      icon={<FaBell />}
+                      href="/appointment"
+                      className="max-[400px]:flex-grow"
+                    >
                       Make Appointment
                     </Button>
                     <Button
                       alt={true}
                       icon={<FaPlay className="translate-x-[1px]" />}
                       className="max-[400px]:flex-grow"
+                      href="https://youtube.com"
                     >
                       Play Now
                     </Button>
@@ -70,21 +75,21 @@ const Hero = () => {
                 </div>
               </div>
 
-              <div className="absolute select-none top-0 left-0 max-sm:w-72 -z-1 animate-spin-reverse-slow">
+              <div className="absolute top-0 left-0 select-none max-sm:w-72 -z-1 animate-spin-reverse-slow">
                 <img
                   src={circleShape2}
                   alt=""
-                  className="opacity-80 w-full h-full"
+                  className="w-full h-full opacity-80"
                 />
               </div>
               <div className="absolute select-none top-12 left-12 sm:top-20 sm:left-20 max-sm:w-48 -z-1 animate-spin-slow">
                 <img
                   src={circleShape1}
                   alt=""
-                  className="opacity-80 w-full h-full"
+                  className="w-full h-full opacity-80"
                 />
               </div>
-              <div className="absolute select-none top-3/4 sm:top-1/4 md:top-3/4 right-6 -z-1 animate-spin-slow">
+              <div className="absolute select-none top-3/4 sm:top-1/4 md:top-3/4 lg:top-1/4 right-6 -z-1 animate-spin-slow">
                 <img src={shape1} alt="" />
               </div>
             </div>
@@ -93,11 +98,11 @@ const Hero = () => {
       </Swiper>
 
       <div className="static md:absolute lg:static right-1.5 bottom-2.5 z-[2] flex gap-x-2.5 lg:gap-x-0">
-        <button className="swiper-button-prev w-10 h-10 md:w-[50px] md:h-[50px] rounded-full flex justify-center items-center text-secondary bg-white cursor-pointer absolute md:static lg:absolute lg:-translate-y-1/2 lg:top-1/2 bottom-4 lg:bottom-auto left-4 z-10 hover:text-white hover:bg-primary transition-all duration-500 text-3xl md:text-4xl lg:opacity-0 lg:pointer-events-none">
+        <button className="swiper-button-prev w-10 h-10 md:w-[50px] md:h-[50px] rounded-full flex justify-center items-center text-secondary bg-white cursor-pointer absolute md:static lg:absolute lg:-translate-y-1/2 lg:top-1/2 bottom-4 lg:bottom-auto left-4 z-10 hover:text-white hover:bg-primary transition-500 text-3xl md:text-4xl lg:opacity-0 lg:pointer-events-none">
           <MdOutlineKeyboardArrowLeft />
         </button>
 
-        <button className="swiper-button-next w-10 h-10 md:w-[50px] md:h-[50px] rounded-full flex justify-center items-center text-secondary bg-white cursor-pointer absolute md:static lg:absolute lg:-translate-y-1/2 lg:top-1/2 bottom-4 lg:bottom-auto right-4 z-10 hover:text-white hover:bg-primary transition-all duration-500 text-3xl md:text-4xl lg:opacity-0 lg:pointer-events-none">
+        <button className="swiper-button-next w-10 h-10 md:w-[50px] md:h-[50px] rounded-full flex justify-center items-center text-secondary bg-white cursor-pointer absolute md:static lg:absolute lg:-translate-y-1/2 lg:top-1/2 bottom-4 lg:bottom-auto right-4 z-10 hover:text-white hover:bg-primary transition-500 text-3xl md:text-4xl lg:opacity-0 lg:pointer-events-none">
           <MdOutlineKeyboardArrowRight />
         </button>
       </div>

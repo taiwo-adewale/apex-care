@@ -5,7 +5,15 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-import { Home, NotFound, Login, Signup } from "./pages";
+import {
+  Home,
+  About,
+  NotFound,
+  Login,
+  Signup,
+  Contact,
+  Services,
+} from "./pages";
 import RootLayout from "./components/layout/RootLayout";
 
 const router = createBrowserRouter(
@@ -13,9 +21,13 @@ const router = createBrowserRouter(
     <>
       <Route path="/" element={<RootLayout />}>
         <Route index element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/services" element={<Services />} />
       </Route>
+
+      <Route path="/login" element={<Login />} />
+      <Route path="/signup" element={<Signup />} />
       <Route path="*" element={<NotFound />} />
     </>
   )
