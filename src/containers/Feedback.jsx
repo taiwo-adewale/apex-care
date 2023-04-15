@@ -20,7 +20,7 @@ const Feedback = ({ bgShape }) => {
   };
 
   return (
-    <Section className="relative">
+    <Section padding={true} className="relative">
       <div className="container">
         <SectionTitle
           center={true}
