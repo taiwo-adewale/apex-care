@@ -2,11 +2,11 @@ import { GiLiver } from "react-icons/gi";
 import { FaChevronRight, FaCheck } from "react-icons/fa";
 
 import approachImg from "../assets/approach-img.jpg";
-import { SectionTitle, Button } from "../components";
+import { SectionTitle, Button, Section } from "../components";
 
 const OurApproach = () => {
   return (
-    <section>
+    <Section>
       <div className="container lg:px-0 lg:mx-0 lg:max-w-none lg:w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div
@@ -55,7 +55,7 @@ const OurApproach = () => {
           </div>
         </div>
       </div>
-    </section>
+    </Section>
   );
 };
 

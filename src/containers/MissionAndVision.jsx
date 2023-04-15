@@ -1,13 +1,13 @@
 import { GiLiver } from "react-icons/gi";
 
-import { SectionTitle } from "../components";
+import { SectionTitle, Section } from "../components";
 
 import missionImg from "../assets/mission-img.jpg";
 import shape3 from "../assets/shape-3.png";
 
 const MissionAndVision = () => {
   return (
-    <section className="relative section-py">
+    <Section className="relative">
       <div className="container lg:px-0 lg:mx-0 lg:max-w-none lg:w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div
@@ -61,7 +61,7 @@ const MissionAndVision = () => {
       <div className="absolute bottom-0 left-0 -z-1 select-none">
         <img src={shape3} alt="" className="opacity-60" />
       </div>
-    </section>
+    </Section>
   );
 };
 

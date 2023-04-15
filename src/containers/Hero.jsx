@@ -10,7 +10,7 @@ import "swiper/css";
 import "swiper/css/autoplay";
 import "swiper/css/pagination";
 
-import { Button } from "../components";
+import { Button, Section } from "../components";
 import { heroItems } from "../data";
 
 import circleShape1 from "../assets/circle-shape-1.png";
@@ -19,7 +19,7 @@ import shape1 from "../assets/shape-1.png";
 
 const Hero = () => {
   return (
-    <section className="relative hero">
+    <Section className="relative hero">
       <Swiper
         slidesPerView={1}
         loop={true}
@@ -106,7 +106,7 @@ const Hero = () => {
           <MdOutlineKeyboardArrowRight />
         </button>
       </div>
-    </section>
+    </Section>
   );
 };
 

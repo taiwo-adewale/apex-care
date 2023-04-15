@@ -6,12 +6,12 @@ import { Navigation, Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/autoplay";
 
-import { SectionTitle, SocialIcons } from "../components";
+import { SectionTitle, SocialIcons, Section } from "../components";
 import { doctors } from "../data";
 
 const Doctors = () => {
   return (
-    <section className="section-py bg-section-main">
+    <Section padding={true} className="bg-section-main">
       <div className="container">
         <SectionTitle
           center={true}
@@ -89,7 +89,7 @@ const Doctors = () => {
           </div>
         </div>
       </div>
-    </section>
+    </Section>
   );
 };
 

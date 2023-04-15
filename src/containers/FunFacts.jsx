@@ -1,11 +1,11 @@
-import { AnimatedNumbers } from "../components";
+import { AnimatedNumbers, Section } from "../components";
+
+import mapBg from "../assets/map-bg.png";
 import { funFacts } from "../data";
 
 const FunFacts = () => {
   return (
-    <section
-      className={`bg-map-pattern py-[3.75rem] md:py-[4.375rem] lg:py-[6.25rem] bg-cover bg-no-repeat bg-center bg-secondary`}
-    >
+    <Section bgImg={mapBg} padding={true} className="bg-secondary">
       <div className="container">
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-y-8 gap-x-2">
           {funFacts.map((fact, index) => (
@@ -27,7 +27,7 @@ const FunFacts = () => {
           ))}
         </div>
       </div>
-    </section>
+    </Section>
   );
 };
 

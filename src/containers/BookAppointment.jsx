@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { FaChevronRight, FaChevronDown } from "react-icons/fa";
 import { BsTelephone, BsEnvelope, BsPerson } from "react-icons/bs";
 
-import { SectionTitle, Button } from "../components";
+import { SectionTitle, Button, Section } from "../components";
 import appointmentBg from "../assets/appointment-bg.jpg";
 
 import { servicesList } from "../data";
@@ -42,10 +42,7 @@ const BookAppointment = () => {
   }, [open]);
 
   return (
-    <section
-      style={{ backgroundImage: `url('${appointmentBg}')` }}
-      className="bg-fixed bg-cover section-py"
-    >
+    <Section bgImg={appointmentBg} padding={true} className="bg-fixed">
       <div className="container flex justify-center">
         <div className="md:max-w-[630px] relative lg:max-w-[700px] w-full bg-white px-6 py-30px md:p-[3.125rem] shadow-appointment md:ml-auto lg:mr-28 before:absolute before:content-[''] before:bg-white before:w-[96%] before:opacity-60 before:h-1/2 before:-bottom-5 before:left-0 before:right-0 before:m-auto before:rounded-[3px]">
           <SectionTitle
@@ -174,7 +171,7 @@ const BookAppointment = () => {
           </form>
         </div>
       </div>
-    </section>
+    </Section>
   );
 };
 

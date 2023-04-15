@@ -1,8 +1,10 @@
 import { GiLiver } from "react-icons/gi";
 
+import { Section } from "../components";
+
 const AboutFeatures = () => {
   return (
-    <section>
+    <Section>
       <div className="container">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-30px">
           {["Our Mission", "Our Planning", "Our Vision"].map(
@@ -33,7 +35,7 @@ const AboutFeatures = () => {
           )}
         </div>
       </div>
-    </section>
+    </Section>
   );
 };
 

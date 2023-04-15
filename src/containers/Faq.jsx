@@ -3,7 +3,7 @@ import { FaPlus, FaMinus } from "react-icons/fa";
 import { Collapse } from "react-collapse";
 
 import faqImg from "../assets/faq-img.jpg";
-import { SectionTitle } from "../components";
+import { SectionTitle, Section } from "../components";
 
 import { faqs } from "../data";
 
@@ -15,7 +15,7 @@ const Faq = () => {
   };
 
   return (
-    <section className="section-py !pt-0">
+    <Section padding={true} className="!pt-0">
       <div className="container lg:px-0 lg:mx-0 lg:max-w-none lg:w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div
@@ -76,7 +76,7 @@ const Faq = () => {
           </div>
         </div>
       </div>
-    </section>
+    </Section>
   );
 };
 

@@ -1,6 +1,6 @@
 import { FaChevronRight, FaCheck } from "react-icons/fa";
 
-import { SectionTitle, Button } from "../components";
+import { SectionTitle, Button, Section } from "../components";
 import aboutImg from "../assets/about-img.jpg";
 
 import { aboutList } from "../data";
@@ -9,7 +9,7 @@ const AboutUs = ({ padding, slice }) => {
   const aboutListItems = slice ? aboutList.slice(0, slice) : aboutList;
 
   return (
-    <section className={padding ? "section-py" : ""}>
+    <Section padding={padding}>
       <div className="container lg:px-0 lg:mx-0 lg:max-w-none lg:w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div
@@ -57,7 +57,7 @@ const AboutUs = ({ padding, slice }) => {
           </div>
         </div>
       </div>
-    </section>
+    </Section>
   );
 };
 

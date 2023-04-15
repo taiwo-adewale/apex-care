@@ -5,13 +5,13 @@ import {
   FaMapMarkerAlt,
 } from "react-icons/fa";
 
-import { SectionTitle, Button } from "../components";
+import { SectionTitle, Button, Section } from "../components";
 
 import contactMap from "../assets/contact-map.png";
 
 const SendMessage = () => {
   return (
-    <section className="relative section-py">
+    <Section padding={true} className="relative">
       <div className="container">
         <SectionTitle
           center={true}
@@ -143,7 +143,7 @@ const SendMessage = () => {
       <div className="absolute left-0 right-0 -translate-y-1/2 top-1/2 -z-[1] opacity-40">
         <img src={contactMap} alt="" />
       </div>
-    </section>
+    </Section>
   );
 };
 

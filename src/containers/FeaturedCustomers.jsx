@@ -1,9 +1,9 @@
-import { SectionTitle } from "../components";
+import { SectionTitle, Section } from "../components";
 import { featuredCustomers } from "../data";
 
 const FeaturedCustomers = () => {
   return (
-    <section className="section-py bg-[#f4f9fd]">
+    <Section padding={true} className="bg-[#f4f9fd]">
       <div className="container">
         <SectionTitle
           center={true}
@@ -34,7 +34,7 @@ const FeaturedCustomers = () => {
           ))}
         </div>
       </div>
-    </section>
+    </Section>
   );
 };
 

@@ -1,11 +1,11 @@
 import { GiLiver } from "react-icons/gi";
 
 import shape2 from "../assets/shape-2.png";
-import { SectionTitle } from "../components";
+import { SectionTitle, Section } from "../components";
 
 const Features = () => {
   return (
-    <section className="relative section-py">
+    <Section padding={true} className="relative">
       <div className="container">
         <SectionTitle
           center={true}
@@ -50,7 +50,7 @@ const Features = () => {
       <div className="absolute -bottom-[7.5rem] right-0 -z-1 animate-moveBounce select-none">
         <img src={shape2} alt="" className="opacity-70" />
       </div>
-    </section>
+    </Section>
   );
 };
 

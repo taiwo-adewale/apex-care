@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
 import { FaChevronRight, FaArrowRight } from "react-icons/fa";
 
-import { SectionTitle, Button } from "../components";
+import { SectionTitle, Button, Section } from "../components";
 import { services } from "../data";
 
 const OurServices = ({ sectionTitle, slice }) => {
   const serviceItems = slice ? services.slice(0, slice) : services;
 
   return (
-    <section className="section-py bg-alt-section">
+    <Section padding={true} className="bg-alt-section">
       <div className="container">
         {sectionTitle ? (
           <SectionTitle
@@ -70,7 +70,7 @@ const OurServices = ({ sectionTitle, slice }) => {
           ""
         )}
       </div>
-    </section>
+    </Section>
   );
 };
 

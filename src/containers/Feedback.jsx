@@ -6,7 +6,7 @@ import { Navigation, Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/autoplay";
 
-import { SectionTitle } from "../components";
+import { SectionTitle, Section } from "../components";
 import shape3 from "../assets/shape-3.png";
 import { feedbacks } from "../data";
 
@@ -20,7 +20,7 @@ const Feedback = ({ bgShape }) => {
   };
 
   return (
-    <section className="relative section-py">
+    <Section className="relative">
       <div className="container">
         <SectionTitle
           center={true}
@@ -102,7 +102,7 @@ const Feedback = ({ bgShape }) => {
           <img src={shape3} alt="" className="opacity-60" />
         </div>
       )}
-    </section>
+    </Section>
   );
 };
 

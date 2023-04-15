@@ -28,9 +28,6 @@ module.exports = {
         "17px": "1.0625rem",
         "20px": "1.25rem",
       },
-      backgroundImage: {
-        "map-pattern": "url('/src/assets/map-bg.png')",
-      },
       backgroundColor: {
         "section-main": "#fefefe", // rgb(254,254,254)
         "alt-section": "#f4f9fd", // rgb(244,249,253)

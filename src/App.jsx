@@ -13,6 +13,7 @@ import {
   Signup,
   Contact,
   Services,
+  Profile,
 } from "./pages";
 import { RootLayout } from "./layouts";
 
@@ -24,6 +25,7 @@ const router = createBrowserRouter(
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/profile" element={<Profile />} />
       </Route>
 
       <Route path="/login" element={<Login />} />
