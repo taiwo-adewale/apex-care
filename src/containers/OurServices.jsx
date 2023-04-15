@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
 import { FaChevronRight, FaArrowRight } from "react-icons/fa";
 
-import SectionTitle from "./SectionTitle";
-import Button from "./Button.jsx";
+import { SectionTitle, Button } from "../components";
 import { services } from "../data";
 
 const OurServices = ({ sectionTitle, slice }) => {

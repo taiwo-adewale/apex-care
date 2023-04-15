@@ -1,5 +1,5 @@
+import { AnimatedNumbers } from "../components";
 import { funFacts } from "../data";
-import AnimatedNumbers from "./AnimatedNumbers";
 
 const FunFacts = () => {
   return (

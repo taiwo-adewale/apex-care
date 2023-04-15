@@ -10,7 +10,7 @@ import {
   Feedback,
   Faq,
   FeaturedCustomers,
-} from "../components";
+} from "../containers";
 
 const Home = () => {
   return (

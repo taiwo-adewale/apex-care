@@ -10,7 +10,7 @@ import "swiper/css";
 import "swiper/css/autoplay";
 import "swiper/css/pagination";
 
-import Button from "./Button";
+import { Button } from "../components";
 import { heroItems } from "../data";
 
 import circleShape1 from "../assets/circle-shape-1.png";

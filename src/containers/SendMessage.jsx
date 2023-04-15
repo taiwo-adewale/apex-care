@@ -5,8 +5,7 @@ import {
   FaMapMarkerAlt,
 } from "react-icons/fa";
 
-import SectionTitle from "./SectionTitle";
-import Button from "./Button";
+import { SectionTitle, Button } from "../components";
 
 import contactMap from "../assets/contact-map.png";
 

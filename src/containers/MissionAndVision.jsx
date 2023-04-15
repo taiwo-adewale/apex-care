@@ -1,8 +1,9 @@
 import { GiLiver } from "react-icons/gi";
 
+import { SectionTitle } from "../components";
+
 import missionImg from "../assets/mission-img.jpg";
 import shape3 from "../assets/shape-3.png";
-import SectionTitle from "./SectionTitle";
 
 const MissionAndVision = () => {
   return (

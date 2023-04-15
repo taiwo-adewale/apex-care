@@ -1,5 +1,5 @@
+import { Banner } from "../components";
 import {
-  Banner,
   AboutUs,
   AboutFeatures,
   MissionAndVision,
@@ -9,7 +9,7 @@ import {
   OurApproach,
   Feedback,
   FeaturedCustomers,
-} from "../components";
+} from "../containers";
 
 import aboutBg from "../assets/about-bg.jpg";
 

@@ -1,7 +1,7 @@
 import { GiLiver } from "react-icons/gi";
 
 import shape2 from "../assets/shape-2.png";
-import SectionTitle from "./SectionTitle";
+import { SectionTitle } from "../components";
 
 const Features = () => {
   return (

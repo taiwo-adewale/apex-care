@@ -6,8 +6,7 @@ import { Navigation, Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/autoplay";
 
-import SectionTitle from "./SectionTitle";
-import SocialIcons from "./SocialIcons";
+import { SectionTitle, SocialIcons } from "../components";
 import { doctors } from "../data";
 
 const Doctors = () => {

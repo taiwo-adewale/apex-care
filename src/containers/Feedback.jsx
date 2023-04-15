@@ -6,7 +6,7 @@ import { Navigation, Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/autoplay";
 
-import SectionTitle from "./SectionTitle";
+import { SectionTitle } from "../components";
 import shape3 from "../assets/shape-3.png";
 import { feedbacks } from "../data";
 

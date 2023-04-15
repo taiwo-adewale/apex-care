@@ -2,8 +2,7 @@ import { GiLiver } from "react-icons/gi";
 import { FaChevronRight, FaCheck } from "react-icons/fa";
 
 import approachImg from "../assets/approach-img.jpg";
-import SectionTitle from "./SectionTitle";
-import Button from "./Button";
+import { SectionTitle, Button } from "../components";
 
 const OurApproach = () => {
   return (

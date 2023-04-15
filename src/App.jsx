@@ -14,7 +14,7 @@ import {
   Contact,
   Services,
 } from "./pages";
-import RootLayout from "./components/layout/RootLayout";
+import { RootLayout } from "./layouts";
 
 const router = createBrowserRouter(
   createRoutesFromElements(

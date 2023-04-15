@@ -2,9 +2,8 @@ import { useState, useEffect, useRef } from "react";
 import { FaChevronRight, FaChevronDown } from "react-icons/fa";
 import { BsTelephone, BsEnvelope, BsPerson } from "react-icons/bs";
 
+import { SectionTitle, Button } from "../components";
 import appointmentBg from "../assets/appointment-bg.jpg";
-import SectionTitle from "./SectionTitle";
-import Button from "./Button";
 
 import { servicesList } from "../data";
 

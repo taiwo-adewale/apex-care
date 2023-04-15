@@ -1,8 +1,7 @@
 import { FaChevronRight, FaCheck } from "react-icons/fa";
 
+import { SectionTitle, Button } from "../components";
 import aboutImg from "../assets/about-img.jpg";
-import SectionTitle from "./SectionTitle";
-import Button from "./Button";
 
 import { aboutList } from "../data";
 

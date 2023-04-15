@@ -14,13 +14,17 @@ const Header = () => {
   const [isNavMobile, setIsNavMobile] = useState(false);
 
   useEffect(() => {
-    document.addEventListener("scroll", function () {
+    const handleNavDrop = () => {
       if (document.documentElement.scrollTop > 120) {
         navRef.current.classList.add("fixed", "animate-nav-drop");
       } else {
         navRef.current.classList.remove("fixed", "animate-nav-drop");
       }
-    });
+    };
+
+    document.addEventListener("scroll", handleNavDrop);
+
+    return () => document.removeEventListener("scroll", handleNavDrop);
   }, []);
 
   return (
@@ -93,6 +97,15 @@ const Header = () => {
                         </NavLink>
                       </li>
                     ))}
+                    <li>
+                      <Link
+                        to="/login"
+                        onClick={() => setIsNavMobile(false)}
+                        className="block py-3.5 px-5 border-t border-t-[#DBEEFD] font-medium bg-primary text-white"
+                      >
+                        Sign In
+                      </Link>
+                    </li>
                   </ul>
                 </nav>
               </Collapse>

@@ -1,4 +1,5 @@
-import { Banner, SendMessage } from "../components";
+import { Banner } from "../components";
+import { SendMessage } from "../containers";
 
 import contactBg from "../assets/contact-img.jpg";
 

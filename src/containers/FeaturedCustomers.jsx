@@ -1,4 +1,4 @@
-import SectionTitle from "./SectionTitle";
+import { SectionTitle } from "../components";
 import { featuredCustomers } from "../data";
 
 const FeaturedCustomers = () => {

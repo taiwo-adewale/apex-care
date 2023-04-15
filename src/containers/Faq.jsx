@@ -3,7 +3,8 @@ import { FaPlus, FaMinus } from "react-icons/fa";
 import { Collapse } from "react-collapse";
 
 import faqImg from "../assets/faq-img.jpg";
-import SectionTitle from "./SectionTitle";
+import { SectionTitle } from "../components";
+
 import { faqs } from "../data";
 
 const Faq = () => {

@@ -1,4 +1,5 @@
-import { Banner, OurServices } from "../components";
+import { Banner } from "../components";
+import { OurServices } from "../containers";
 
 import contactBg from "../assets/contact-img.jpg";
 
