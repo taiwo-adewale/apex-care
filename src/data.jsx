@@ -195,67 +195,67 @@ export const links = [
 
 export const faqs = [
   {
-    title: "My physician is a faculty member—what does that mean?",
+    title: "How often should I get a physical exam?",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.",
+      "It's recommended that adults get a physical exam at least once a year. However, the frequency may vary depending on your age, health status, and family history. It's best to discuss with your healthcare provider to determine how often you should get a physical exam.",
   },
   {
-    title: "What is an academic medical center?",
+    title: "What is the best way to treat a migraine?",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.",
+      "Treatment for migraines may include medication, lifestyle changes, and alternative therapies. Some common medications used to treat migraines include triptans, ergotamines, and pain relievers.",
   },
   {
-    title: "What doctor will I see?",
+    title: "What is the recommended daily amount of exercise?",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.",
+      "The recommended amount of exercise for adults is at least 150 minutes of moderate-intensity aerobic activity or 75 minutes of vigorous-intensity aerobic activity per week, in addition to muscle-strengthening activities at least two days per week.",
   },
   {
-    title: "What is a medical student?",
+    title: "What should I do if I think I have a concussion?",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.",
+      " If you think you have a concussion, it's important to seek medical attention right away. Rest is also crucial for recovery, so avoid activities that could make your symptoms worse.",
   },
   {
-    title: "How are residents supervised?",
+    title: "How can I prevent the spread of the flu?",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.",
+      "You can prevent the spread of the flu by getting vaccinated every year, washing your hands frequently, covering your mouth and nose when coughing or sneezing, and avoiding close contact with sick people.",
   },
 ];
 
 export const featuredCustomers = [
   {
-    url: "",
+    url: "https://medplusnig.com/",
     image: customer1,
   },
   {
-    url: "",
+    url: "https://healthplusnigeria.com/",
     image: customer2,
   },
   {
-    url: "",
+    url: "https://medplusnig.com/",
     image: customer3,
   },
   {
-    url: "",
+    url: "https://healthplusnigeria.com/",
     image: customer4,
   },
   {
-    url: "",
+    url: "https://medplusnig.com/",
     image: customer5,
   },
   {
-    url: "",
+    url: "https://healthplusnigeria.com/",
     image: customer6,
   },
   {
-    url: "",
+    url: "https://medplusnig.com/",
     image: customer7,
   },
   {
-    url: "",
+    url: "https://healthplusnigeria.com/",
     image: customer8,
   },
   {
-    url: "",
+    url: "https://medplusnig.com/",
     image: customer9,
   },
 ];
@@ -295,6 +295,10 @@ export const navLinks = [
     url: "/profile",
   },
   {
+    name: "Appointments",
+    url: "/appointments",
+  },
+  {
     name: "Services",
     url: "/services",
   },
@@ -309,84 +313,84 @@ export const feedbacks = [
     name: "John Lucy",
     role: "Founding Partner",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, quis aliquam! Ullam officia veritatis laborum. Voluptates molestias aperiam alias, cupiditate, ea saepe temporibus nostrum numquam nisi quidem atque tempora.",
+      "I've been struggling with chronic pain for years and had almost given up hope. But thanks to the team at Apex Care, I finally found a treatment that works for me. I'm now able to live my life to the fullest, pain-free!",
     img: feedback2,
   },
   {
     name: "John Smith",
     role: "Web Developer",
     message:
-      "Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.",
+      "I can't thank Apex Care enough for their exceptional customer service. The team went above and beyond to ensure that I received the care and support I needed throughout my entire treatment process.",
     img: feedback4,
   },
   {
     name: "Maxwell Warner",
     role: "Web Designer",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quibusdam sit quaerat at fugiat labore eum, ipsum error repudiandae porro quae, ut illum? Ut labore officiis fuga vero cum odit tatis laborum Voluptates moles.",
+      "I've tried so many different products and services to improve my health, but nothing seemed to work. That is, until I discovered Apex Care. The personalized approach and expertise of their team have helped me achieve my wellness goals like never before.",
     img: feedback1,
   },
   {
     name: "Ross Taylor",
     role: "Patient",
     message:
-      "Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.",
+      "The quality of the products and services at Apex Care is unmatched. I always feel confident that I'm receiving the best care possible when I visit their facility. I highly recommend them to anyone looking for top-notch healthcare solutions.",
     img: feedback5,
   },
   {
     name: "James Anderson",
     role: "CEO",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quam incidunt, eveniet repellat, labore, ipsa aut vel iusto officiis est ducimus saepe! Ea perspiciatis doloribus voluptates fugiat? Quam, suspendisse autem quos?",
+      "I've been struggling with chronic pain for years and had almost given up hope. But thanks to the team at Apex Care, I finally found a treatment that works for me. I'm now able to live my life to the fullest, pain-free!",
     img: feedback1,
   },
   {
     name: "Steven Smith",
     role: "Manager",
     message:
-      "Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.",
+      "I can't thank Apex Care enough for their exceptional customer service. The team went above and beyond to ensure that I received the care and support I needed throughout my entire treatment process.",
     img: feedback3,
   },
   {
     name: "Steven Lucy",
     role: "Patient",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem obcaecati porro saepe. Similique impedit eum perferendis. Obcaecati, qui, cumque delectus nulla quidem optio odio odit sit itaque, mollitia eveniet tu consequuntur?",
+      "I've tried so many different products and services to improve my health, but nothing seemed to work. That is, until I discovered Apex Care. The personalized approach and expertise of their team have helped me achieve my wellness goals like never before.",
     img: feedback5,
   },
   {
     name: "John Terry",
     role: "Patient",
     message:
-      "Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.",
+      "The quality of the products and services at Apex Care is unmatched. I always feel confident that I'm receiving the best care possible when I visit their facility. I highly recommend them to anyone looking for top-notch healthcare solutions.",
     img: feedback3,
   },
   {
     name: "Jake Brown",
     role: "Graphic Designer",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem obcaecati porro saepe. Similique impedit eum perferendis. Obcaecati, qui, cumque delectus nulla quidem optio odio odit sit itaque, mollitia eveniet des consequuntur?",
+      "I've been struggling with chronic pain for years and had almost given up hope. But thanks to the team at Apex Care, I finally found a treatment that works for me. I'm now able to live my life to the fullest, pain-free!",
     img: feedback2,
   },
   {
     name: "Monkey D Luffy",
     role: "Patient",
     message:
-      "Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.",
+      "I can't thank Apex Care enough for their exceptional customer service. The team went above and beyond to ensure that I received the care and support I needed throughout my entire treatment process.",
     img: feedback4,
   },
   {
     name: "Westlife",
     role: "HR",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem obcaecati porro saepe. Similique impedit eum perferendis. Obcaecati, qui, cumque delectus nulla quidem optio odio odit sit itaque, mollitia eveniet des consequuntur?",
+      "I've tried so many different products and services to improve my health, but nothing seemed to work. That is, until I discovered Apex Care. The personalized approach and expertise of their team have helped me achieve my wellness goals like never before.",
     img: feedback1,
   },
   {
     name: "Zach King",
     role: "Co Founder",
     message:
-      "Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.",
+      "The quality of the products and services at Apex Care is unmatched. I always feel confident that I'm receiving the best care possible when I visit their facility. I highly recommend them to anyone looking for top-notch healthcare solutions.",
     img: feedback4,
   },
 ];

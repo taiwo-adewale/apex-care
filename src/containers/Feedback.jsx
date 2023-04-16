@@ -26,7 +26,7 @@ const Feedback = ({ bgShape }) => {
           center={true}
           title="Feedback"
           heading="Our Happy Clients Says About Us"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          desc="Our testimonials section showcases real stories from real people who have improved their health and wellness with our products and services."
           className="mb-[2.1875rem] md:mb-[3.75rem]"
         />
 

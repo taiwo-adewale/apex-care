@@ -1,9 +1,9 @@
-import { MedicalHistory } from "../containers";
+import { MedicalProfile } from "../containers";
 
 const Profile = () => {
   return (
     <main>
-      <MedicalHistory />
+      <MedicalProfile />
     </main>
   );
 };

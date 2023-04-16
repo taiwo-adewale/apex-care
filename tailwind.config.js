@@ -45,6 +45,7 @@ module.exports = {
         "feedback-layer-2": "0 30px 10px -20px rgba(0, 0, 0, 0.03)",
         input: "0px 5px 28.5px 1.5px rgba(149, 152, 200, 0.2)",
         "contact-icon": "0 1px 3px 1px #19ce67",
+        table: "0 10px 55px 5px rgba(137, 173, 255, 0.2)",
       },
       borderRadius: {
         pick: "70% 30% 30% 70% / 60% 40% 60% 40%",

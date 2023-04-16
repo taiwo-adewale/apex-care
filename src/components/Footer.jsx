@@ -1,10 +1,24 @@
+import { useState } from "react";
+import { Link } from "react-router-dom";
 import { FaPaperPlane } from "react-icons/fa";
 
 import Button from "./Button";
 import SocialIcons from "./SocialIcons";
-import { departments, links } from "../data";
+import { departments, navLinks } from "../data";
 
 const Footer = () => {
+  const [email, setEmail] = useState("");
+  const [btnText, setBtnText] = useState("Subscribe");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    setEmail("");
+    setBtnText("Subscribed!");
+
+    setTimeout(() => setBtnText("Subscribe"), 3000);
+  };
+
   return (
     <footer className="bg-secondary pt-[3.125rem] md:pt-[3.75rem] lg:pt-20">
       <div className="container">
@@ -16,16 +30,19 @@ const Footer = () => {
               </h2>
 
               <p className="text-[#cecece] max-w-[400px] mt-2.5 text-13px mx-auto md:text-15px lg:mx-0">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt.
+                Stay up-to-date with the latest medical news, expert insights
+                and exclusive offers.
               </p>
             </div>
 
-            <form className="relative text-center w-full mt-30px md:max-lg:max-w-[500px] md:max-lg:mx-auto lg:mt-0">
+            <form
+              onSubmit={handleSubmit}
+              className="relative text-center w-full mt-30px md:max-lg:max-w-[500px] md:max-lg:mx-auto lg:mt-0"
+            >
               <input
                 type="email"
-                name="email"
-                id="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
                 required
                 placeholder="Enter your email"
                 className="h-[3.4375rem] px-4 text-15px block w-full bg-white rounded-full text-secondary md:h-[4.375rem] md:pl-6 md:pr-[10.3125rem] md:text-17px outline-none focus:outline-none font-medium placeholder:font-normal"
@@ -35,7 +52,7 @@ const Footer = () => {
                 icon={<FaPaperPlane />}
                 className="w-full mt-4 py-4 text-sm sm:absolute sm:w-auto sm:right-1 sm:top-1/2 sm:mt-0 sm:-translate-y-1/2 sm:h-[3rem] md:right-2 md:h-[3.4375rem]"
               >
-                Subscribe
+                {btnText}
               </Button>
             </form>
           </div>
@@ -48,8 +65,9 @@ const Footer = () => {
             </span>
 
             <p className="!text-[#cecece] mt-4 text-13px md:text-15px">
-              Powerfully flexible html template for medical & health related
-              organizations, institutes, clinics and businesses.
+              Your trusted source for reliable healthcare information. Explore
+              expert articles and advice to stay informed and empowered about
+              your health.
             </p>
 
             <SocialIcons center={false} dark={true} />
@@ -78,12 +96,12 @@ const Footer = () => {
             </h3>
 
             <ul>
-              {links.map((link, index) => (
+              {navLinks.map((link, index) => (
                 <li
                   key={`dept-${index}`}
                   className="text-13px mb-2.5 text-[#cecece] md:text-15px hover:text-primary transition-300 cursor-pointer w-fit last:mb-0"
                 >
-                  {link}
+                  <Link to={link.url}>{link.name}</Link>
                 </li>
               ))}
             </ul>
@@ -121,7 +139,7 @@ const Footer = () => {
 
         <div className="mt-5 py-6 text-center border-t border-t-[#272a35] md:py-30px md:mt-[2.1875rem] lg:mt-[3.125rem]">
           <p className="text-white text-13px leading-snug md:text-15px">
-            © ApexCare is Proudly Owned by Team Okay Observation
+            © ApexCare is proudly Owned by Team Okay Observation
           </p>
         </div>
       </div>
