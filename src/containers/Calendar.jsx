@@ -8,33 +8,33 @@ const Calendar = () => {
           center={true}
           title="Calendar"
           heading="Determine Your Date to Come"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          desc="Stay up-to-date with your appointments by viewing them on our easy-to-use online calendar. Manage your schedule and ensure you never miss a visit with us."
           className="mb-[2.1875rem] md:mb-[3.75rem]"
         />
 
-        <div className="shadow-table overflow-x-auto">
+        <div className="overflow-x-auto shadow-table">
           <table className="w-full text-center">
             <thead>
               <tr>
-                <th className="bg-primary text-white uppercase whitespace-nowrap text-15px md:text-base font-medium py-4 border-b border-b-white">
+                <th className="py-4 font-medium text-white uppercase border-b bg-primary whitespace-nowrap text-15px md:text-base border-b-white">
                   Time
                 </th>
-                <th className="bg-primary text-white uppercase whitespace-nowrap text-15px md:text-base font-medium py-4 border-b border-b-white">
+                <th className="py-4 font-medium text-white uppercase border-b bg-primary whitespace-nowrap text-15px md:text-base border-b-white">
                   Monday
                 </th>
-                <th className="bg-primary text-white uppercase whitespace-nowrap text-15px md:text-base font-medium py-4 border-b border-b-white">
+                <th className="py-4 font-medium text-white uppercase border-b bg-primary whitespace-nowrap text-15px md:text-base border-b-white">
                   Tuesday
                 </th>
-                <th className="bg-primary text-white uppercase whitespace-nowrap text-15px md:text-base font-medium py-4 border-b border-b-white">
+                <th className="py-4 font-medium text-white uppercase border-b bg-primary whitespace-nowrap text-15px md:text-base border-b-white">
                   Wednesday
                 </th>
-                <th className="bg-primary text-white uppercase whitespace-nowrap text-15px md:text-base font-medium py-4 border-b border-b-white">
+                <th className="py-4 font-medium text-white uppercase border-b bg-primary whitespace-nowrap text-15px md:text-base border-b-white">
                   Thursday
                 </th>
-                <th className="bg-primary text-white uppercase whitespace-nowrap text-15px md:text-base font-medium py-4 border-b border-b-white">
+                <th className="py-4 font-medium text-white uppercase border-b bg-primary whitespace-nowrap text-15px md:text-base border-b-white">
                   Friday
                 </th>
-                <th className="bg-primary text-white uppercase whitespace-nowrap text-15px md:text-base font-medium py-4 border-b border-b-white">
+                <th className="py-4 font-medium text-white uppercase border-b bg-primary whitespace-nowrap text-15px md:text-base border-b-white">
                   Saturday
                 </th>
               </tr>
@@ -48,7 +48,7 @@ const Calendar = () => {
                   </span>
                 </td>
                 <td className="group hover:bg-primary p-4 border border-[#eeeeee] border-t-0 transition-500 md:p-6 first:border-l-0 last:border-r-0">
-                  <h3 className="text-15px font-semibold text-secondary transition-500 group-hover:text-white md:text-base">
+                  <h3 className="font-semibold text-15px text-secondary transition-500 group-hover:text-white md:text-base">
                     Dr. Tanner
                   </h3>
                   <span className="text-13px md:text-15px text-textPrimary block mt-1.5 transition-500 group-hover:text-white">
@@ -56,7 +56,7 @@ const Calendar = () => {
                   </span>
                 </td>
                 <td className="group hover:bg-primary p-4 border border-[#eeeeee] border-t-0 transition-500 md:p-6 first:border-l-0 last:border-r-0">
-                  <h3 className="text-15px font-semibold text-secondary transition-500 group-hover:text-white md:text-base">
+                  <h3 className="font-semibold text-15px text-secondary transition-500 group-hover:text-white md:text-base">
                     Dr. Kwak
                   </h3>
                   <span className="text-13px md:text-15px text-textPrimary block mt-1.5 transition-500 group-hover:text-white">
@@ -64,7 +64,7 @@ const Calendar = () => {
                   </span>
                 </td>
                 <td className="group hover:bg-primary p-4 border border-[#eeeeee] border-t-0 transition-500 md:p-6 first:border-l-0 last:border-r-0">
-                  <h3 className="text-15px font-semibold text-secondary transition-500 group-hover:text-white md:text-base">
+                  <h3 className="font-semibold text-15px text-secondary transition-500 group-hover:text-white md:text-base">
                     Dr. Slaughter
                   </h3>
                   <span className="text-13px md:text-15px text-textPrimary block mt-1.5 transition-500 group-hover:text-white">
@@ -73,7 +73,7 @@ const Calendar = () => {
                 </td>
                 <td className="group hover:bg-primary p-4 border border-[#eeeeee] border-t-0 transition-500 md:p-6 first:border-l-0 last:border-r-0"></td>
                 <td className="group hover:bg-primary p-4 border border-[#eeeeee] border-t-0 transition-500 md:p-6 first:border-l-0 last:border-r-0">
-                  <h3 className="text-15px font-semibold text-secondary transition-500 group-hover:text-white md:text-base">
+                  <h3 className="font-semibold text-15px text-secondary transition-500 group-hover:text-white md:text-base">
                     Dr. Foley
                   </h3>
                   <span className="text-13px md:text-15px text-textPrimary block mt-1.5 transition-500 group-hover:text-white">
@@ -81,7 +81,7 @@ const Calendar = () => {
                   </span>
                 </td>
                 <td className="group hover:bg-primary p-4 border border-[#eeeeee] border-t-0 transition-500 md:p-6 first:border-l-0 last:border-r-0">
-                  <h3 className="text-15px font-semibold text-secondary transition-500 group-hover:text-white md:text-base">
+                  <h3 className="font-semibold text-15px text-secondary transition-500 group-hover:text-white md:text-base">
                     Dr. Palmer
                   </h3>
                   <span className="text-13px md:text-15px text-textPrimary block mt-1.5 transition-500 group-hover:text-white">
@@ -98,7 +98,7 @@ const Calendar = () => {
                 </td>
                 <td className="group hover:bg-primary p-4 border border-[#eeeeee] border-t-0 transition-500 md:p-6 first:border-l-0 last:border-r-0"></td>
                 <td className="group hover:bg-primary p-4 border border-[#eeeeee] border-t-0 transition-500 md:p-6 first:border-l-0 last:border-r-0">
-                  <h3 className="text-15px font-semibold text-secondary transition-500 group-hover:text-white md:text-base">
+                  <h3 className="font-semibold text-15px text-secondary transition-500 group-hover:text-white md:text-base">
                     Dr. Megahead
                   </h3>
                   <span className="text-13px md:text-15px text-textPrimary block mt-1.5 transition-500 group-hover:text-white">
@@ -106,7 +106,7 @@ const Calendar = () => {
                   </span>
                 </td>
                 <td className="group hover:bg-primary p-4 border border-[#eeeeee] border-t-0 transition-500 md:p-6 first:border-l-0 last:border-r-0">
-                  <h3 className="text-15px font-semibold text-secondary transition-500 group-hover:text-white md:text-base">
+                  <h3 className="font-semibold text-15px text-secondary transition-500 group-hover:text-white md:text-base">
                     Dr. Neupane
                   </h3>
                   <span className="text-13px md:text-15px text-textPrimary block mt-1.5 transition-500 group-hover:text-white">
@@ -114,7 +114,7 @@ const Calendar = () => {
                   </span>
                 </td>
                 <td className="group hover:bg-primary p-4 border border-[#eeeeee] border-t-0 transition-500 md:p-6 first:border-l-0 last:border-r-0">
-                  <h3 className="text-15px font-semibold text-secondary transition-500 group-hover:text-white md:text-base">
+                  <h3 className="font-semibold text-15px text-secondary transition-500 group-hover:text-white md:text-base">
                     Dr. Breidin
                   </h3>
                   <span className="text-13px md:text-15px text-textPrimary block mt-1.5 transition-500 group-hover:text-white">
@@ -123,7 +123,7 @@ const Calendar = () => {
                 </td>
                 <td className="group hover:bg-primary p-4 border border-[#eeeeee] border-t-0 transition-500 md:p-6 first:border-l-0 last:border-r-0"></td>
                 <td className="group hover:bg-primary p-4 border border-[#eeeeee] border-t-0 transition-500 md:p-6 first:border-l-0 last:border-r-0">
-                  <h3 className="text-15px font-semibold text-secondary transition-500 group-hover:text-white md:text-base">
+                  <h3 className="font-semibold text-15px text-secondary transition-500 group-hover:text-white md:text-base">
                     Dr. Pipe
                   </h3>
                   <span className="text-13px md:text-15px text-textPrimary block mt-1.5 transition-500 group-hover:text-white">
@@ -139,7 +139,7 @@ const Calendar = () => {
                   </span>
                 </td>
                 <td className="group hover:bg-primary p-4 border border-[#eeeeee] border-t-0 transition-500 md:p-6 first:border-l-0 last:border-r-0">
-                  <h3 className="text-15px font-semibold text-secondary transition-500 group-hover:text-white md:text-base">
+                  <h3 className="font-semibold text-15px text-secondary transition-500 group-hover:text-white md:text-base">
                     Dr. Tanner
                   </h3>
                   <span className="text-13px md:text-15px text-textPrimary block mt-1.5 transition-500 group-hover:text-white">
@@ -147,7 +147,7 @@ const Calendar = () => {
                   </span>
                 </td>
                 <td className="group hover:bg-primary p-4 border border-[#eeeeee] border-t-0 transition-500 md:p-6 first:border-l-0 last:border-r-0">
-                  <h3 className="text-15px font-semibold text-secondary transition-500 group-hover:text-white md:text-base">
+                  <h3 className="font-semibold text-15px text-secondary transition-500 group-hover:text-white md:text-base">
                     Dr. Kwak
                   </h3>
                   <span className="text-13px md:text-15px text-textPrimary block mt-1.5 transition-500 group-hover:text-white">
@@ -156,7 +156,7 @@ const Calendar = () => {
                 </td>
                 <td className="group hover:bg-primary p-4 border border-[#eeeeee] border-t-0 transition-500 md:p-6 first:border-l-0 last:border-r-0"></td>
                 <td className="group hover:bg-primary p-4 border border-[#eeeeee] border-t-0 transition-500 md:p-6 first:border-l-0 last:border-r-0">
-                  <h3 className="text-15px font-semibold text-secondary transition-500 group-hover:text-white md:text-base">
+                  <h3 className="font-semibold text-15px text-secondary transition-500 group-hover:text-white md:text-base">
                     Dr. Slaughter
                   </h3>
                   <span className="text-13px md:text-15px text-textPrimary block mt-1.5 transition-500 group-hover:text-white">
@@ -164,7 +164,7 @@ const Calendar = () => {
                   </span>
                 </td>
                 <td className="group hover:bg-primary p-4 border border-[#eeeeee] border-t-0 transition-500 md:p-6 first:border-l-0 last:border-r-0">
-                  <h3 className="text-15px font-semibold text-secondary transition-500 group-hover:text-white md:text-base">
+                  <h3 className="font-semibold text-15px text-secondary transition-500 group-hover:text-white md:text-base">
                     Dr. Foley
                   </h3>
                   <span className="text-13px md:text-15px text-textPrimary block mt-1.5 transition-500 group-hover:text-white">
@@ -181,7 +181,7 @@ const Calendar = () => {
                   </span>
                 </td>
                 <td className="group hover:bg-primary p-4 border border-[#eeeeee] border-t-0 transition-500 md:p-6 first:border-l-0 last:border-r-0">
-                  <h3 className="text-15px font-semibold text-secondary transition-500 group-hover:text-white md:text-base">
+                  <h3 className="font-semibold text-15px text-secondary transition-500 group-hover:text-white md:text-base">
                     Dr. Slaughter
                   </h3>
                   <span className="text-13px md:text-15px text-textPrimary block mt-1.5 transition-500 group-hover:text-white">
@@ -189,7 +189,7 @@ const Calendar = () => {
                   </span>
                 </td>
                 <td className="group hover:bg-primary p-4 border border-[#eeeeee] border-t-0 transition-500 md:p-6 first:border-l-0 last:border-r-0">
-                  <h3 className="text-15px font-semibold text-secondary transition-500 group-hover:text-white md:text-base">
+                  <h3 className="font-semibold text-15px text-secondary transition-500 group-hover:text-white md:text-base">
                     Dr. Megahead
                   </h3>
                   <span className="text-13px md:text-15px text-textPrimary block mt-1.5 transition-500 group-hover:text-white">
@@ -197,7 +197,7 @@ const Calendar = () => {
                   </span>
                 </td>
                 <td className="group hover:bg-primary p-4 border border-[#eeeeee] border-t-0 transition-500 md:p-6 first:border-l-0 last:border-r-0">
-                  <h3 className="text-15px font-semibold text-secondary transition-500 group-hover:text-white md:text-base">
+                  <h3 className="font-semibold text-15px text-secondary transition-500 group-hover:text-white md:text-base">
                     Dr. Neupane
                   </h3>
                   <span className="text-13px md:text-15px text-textPrimary block mt-1.5 transition-500 group-hover:text-white">
@@ -205,7 +205,7 @@ const Calendar = () => {
                   </span>
                 </td>
                 <td className="group hover:bg-primary p-4 border border-[#eeeeee] border-t-0 transition-500 md:p-6 first:border-l-0 last:border-r-0">
-                  <h3 className="text-15px font-semibold text-secondary transition-500 group-hover:text-white md:text-base">
+                  <h3 className="font-semibold text-15px text-secondary transition-500 group-hover:text-white md:text-base">
                     Dr. Breidin
                   </h3>
                   <span className="text-13px md:text-15px text-textPrimary block mt-1.5 transition-500 group-hover:text-white">
@@ -213,7 +213,7 @@ const Calendar = () => {
                   </span>
                 </td>
                 <td className="group hover:bg-primary p-4 border border-[#eeeeee] border-t-0 transition-500 md:p-6 first:border-l-0 last:border-r-0">
-                  <h3 className="text-15px font-semibold text-secondary transition-500 group-hover:text-white md:text-base">
+                  <h3 className="font-semibold text-15px text-secondary transition-500 group-hover:text-white md:text-base">
                     Dr. Kwak
                   </h3>
                   <span className="text-13px md:text-15px text-textPrimary block mt-1.5 transition-500 group-hover:text-white">
@@ -221,7 +221,7 @@ const Calendar = () => {
                   </span>
                 </td>
                 <td className="group hover:bg-primary p-4 border border-[#eeeeee] border-t-0 transition-500 md:p-6 first:border-l-0 last:border-r-0">
-                  <h3 className="text-15px font-semibold text-secondary transition-500 group-hover:text-white md:text-base">
+                  <h3 className="font-semibold text-15px text-secondary transition-500 group-hover:text-white md:text-base">
                     Dr. Pipe
                   </h3>
                   <span className="text-13px md:text-15px text-textPrimary block mt-1.5 transition-500 group-hover:text-white">

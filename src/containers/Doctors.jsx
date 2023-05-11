@@ -17,7 +17,7 @@ const Doctors = () => {
           center={true}
           title="Doctors"
           heading="Meet Our Qualified Doctors"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          desc="Our experienced and compassionate doctors dedicated to providing personalized care to help you achieve your health goals."
           className="mb-3 md:mb-9"
         />
 

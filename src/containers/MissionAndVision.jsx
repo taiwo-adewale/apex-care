@@ -4,6 +4,7 @@ import { SectionTitle, Section } from "../components";
 
 import missionImg from "../assets/mission-img.jpg";
 import shape3 from "../assets/shape-3.png";
+import { missionItems } from "../data";
 
 const MissionAndVision = () => {
   return (
@@ -25,17 +26,12 @@ const MissionAndVision = () => {
             <SectionTitle
               title="Our Mission & Vision"
               heading="Better Information, Better Health"
-              desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              desc="Our mission is to provide compassionate and innovative healthcare solutions, while our vision is to transform the healthcare experience with excellence in care."
               className="text-center mt-30px lg:mt-0 md:text-left"
             />
 
-            <ul className="grid max-[359px]:grid-cols-1 grid-cols-2 pt-6 gap-x-2.5 gap-y-7">
-              {[
-                "professional staff",
-                "Newborn Care",
-                "Sufficient Lab Tests",
-                "Tooth Extraction",
-              ].map((item, index) => (
+            <ul className="grid max-[359px]:grid-cols-1 grid-cols-2 pt-6 gap-x-4 gap-y-7">
+              {missionItems.map((item, index) => (
                 <li
                   key={`mission-${index}`}
                   className="flex flex-col items-center text-center md:items-start md:text-start group"
@@ -45,12 +41,10 @@ const MissionAndVision = () => {
                   </div>
 
                   <span className="capitalize md:uppercase text-secondary text-base block font-semibold mb-1.5 md:text-17px">
-                    {item}
+                    {item.item}
                   </span>
 
-                  <p className="text-13px md:text-15px">
-                    Lorem ipsum dolor sit amet sit, consectetur adipiscing elit.
-                  </p>
+                  <p className="text-13px md:text-15px">{item.desc}</p>
                 </li>
               ))}
             </ul>
@@ -58,7 +52,7 @@ const MissionAndVision = () => {
         </div>
       </div>
 
-      <div className="absolute bottom-0 left-0 -z-1 select-none">
+      <div className="absolute bottom-0 left-0 select-none -z-1">
         <img src={shape3} alt="" className="opacity-60" />
       </div>
     </Section>

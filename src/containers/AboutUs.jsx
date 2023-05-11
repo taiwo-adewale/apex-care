@@ -27,7 +27,7 @@ const AboutUs = ({ padding, slice }) => {
             <SectionTitle
               title="About Us"
               heading="Short Story About ApexCare Clinic Since 1999"
-              desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
+              desc="Apex Care is a trusted healthcare provider committed to delivering exceptional care and service. With our experienced team of healthcare professionals and state-of-the-art facilities, we are dedicated to helping our patients achieve optimal health and wellness."
               className="text-center mt-30px lg:mt-0 md:text-left"
             />
 

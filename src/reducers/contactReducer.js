@@ -1,26 +1,22 @@
-import { servicesList, doctors } from "../data";
-
 export const INITIAL_STATE = {
   loading: false,
   error: false,
-  appointmentDetails: {
+  contactDetails: {
     name: "",
-    doctor: doctors[0].name,
-    service: servicesList[0],
+    email: "",
     phone: "",
-    date: "",
-    time: "",
-    request: "",
+    subject: "",
+    message: "",
   },
 };
 
-export const appointmentReducer = (state, action) => {
+export const contactReducer = (state, action) => {
   switch (action.type) {
     case "CHANGE_INPUT":
       return {
         ...state,
-        appointmentDetails: {
-          ...state.appointmentDetails,
+        contactDetails: {
+          ...state.contactDetails,
           [action.payload.name]: action.payload.value,
         },
       };

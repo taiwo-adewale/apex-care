@@ -71,64 +71,64 @@ export const funFacts = [
 
 export const services = [
   {
-    name: "Cancer Services",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    name: "Preventive Care",
+    desc: "Stay healthy and avoid illness with regular checkups and screenings from our experienced healthcare providers.",
     url: "/",
     icon: <GiLiver />,
     bgImg: service01,
   },
   {
-    name: "Liver Transplant",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    name: "Diagnostic Testing",
+    desc: "Accurate and timely diagnosis is crucial for effective treatment. We offer a range of tests to help identify your health concerns.",
     url: "/",
     icon: <GiLiver />,
     bgImg: service02,
   },
   {
-    name: "Kidney Cancer",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    name: "Pediatrics",
+    desc: "Our experienced pediatricians provide compassionate care for infants, children, and adolescents, ensuring they grow up healthy and strong.",
     url: "/",
     icon: <GiLiver />,
     bgImg: service03,
   },
   {
-    name: "Cardiac Arrhythmia",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    name: "Women's Health",
+    desc: "From routine exams to specialized care, our team provides comprehensive healthcare services to meet the unique needs of women.",
     url: "/",
     icon: <GiLiver />,
     bgImg: service04,
   },
   {
-    name: "Dental Services",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    name: "Behavioral Health",
+    desc: "Take care of your mental health with our expert team of psychiatrists, therapists, and counselors.",
     url: "/",
     icon: <GiLiver />,
     bgImg: service05,
   },
   {
-    name: "Radiation Oncology",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    name: "Rehabilitation",
+    desc: "Regain your strength and mobility with our personalized physical and occupational therapy programs.",
     url: "/",
     icon: <GiLiver />,
     bgImg: service06,
   },
   {
-    name: "Ophthalmology",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    name: "Urgent Care",
+    desc: "Our walk-in clinics offer prompt medical attention for non-life-threatening injuries and illnesses.",
     url: "/",
     icon: <GiLiver />,
     bgImg: service07,
   },
   {
-    name: "Otolaryngology",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    name: "Nutrition Counseling",
+    desc: "Get expert guidance on how to improve your health through proper nutrition and lifestyle choices.",
     url: "/",
     icon: <GiLiver />,
     bgImg: service08,
   },
   {
-    name: "Internal Medicine",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    name: "Telemedicine",
+    desc: "Access healthcare services from the comfort of your own home with our convenient and secure telemedicine platform.",
     url: "/",
     icon: <GiLiver />,
     bgImg: service09,
@@ -264,19 +264,19 @@ export const heroItems = [
   {
     title: "Best Healing Service",
     heading: "ApexCare is the No. 1 Hospital",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna Quis ipsumpsum dolor sit amet consectetur.",
+    desc: "Exceptional healthcare solutions, including cutting-edge technology and personalized care, to help you achieve optimal health and wellness.",
     bgImage: heroBg1,
   },
   {
     title: "Women Care",
     heading: "Exceptional Care for Women",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna Quis ipsumpsum dolor sit amet consectetur.",
+    desc: "Compassionate care for women, from adolescence through menopause, delivered by our experienced healthcare professionals.",
     bgImage: heroBg2,
   },
   {
     title: "Health Service",
     heading: "Your Health is Our Top Priority",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna Quis ipsumpsum dolor sit amet consectetur.",
+    desc: "Comprehensive healthcare services delivered with excellence in care and service, tailored to meet your individual needs.",
     bgImage: heroBg3,
   },
 ];
@@ -399,7 +399,60 @@ export const aboutList = [
   "Scientific Skills For getting a better result",
   "Communication Skills to getting in touch",
   "A Career Overview opportunity Available",
-  "A good Work Environment For work",
+  "A Good Work Environment For work",
   "Scientific Skills For getting a better result",
   "Communication Skills to getting in touch",
+];
+
+export const missionItems = [
+  {
+    item: "professional staff",
+    desc: "Experienced healthcare providers dedicated to personalized care.",
+  },
+  {
+    item: "Newborn Care",
+    desc: "Compassionate care for your newest addition to the family.",
+  },
+  {
+    item: "Sufficient Lab Tests",
+    desc: "Accurate testing for timely diagnosis and effective treatment.",
+  },
+  {
+    item: "Tooth Extraction",
+    desc: "Safe and pain-free tooth extractions by our expert dentists.",
+  },
+];
+
+export const mainServices = [
+  {
+    service: "Advanced Care",
+    desc: "Exceptional healthcare solutions using cutting-edge technology.",
+  },
+  {
+    service: "Internal Medicine",
+    desc: "Comprehensive care for adults by our experienced physicians.",
+  },
+  {
+    service: "Otolaryngology",
+    desc: "Specialized care for ear, nose, and throat concerns.",
+  },
+  {
+    service: "Ophthalmology",
+    desc: "Expert eye care services, including exams and treatment.",
+  },
+];
+
+export const aboutFeatures = [
+  {
+    item: "Our Mission",
+    desc: "To provide compassionate and innovative healthcare solutions to enhance the quality of life for our patients.",
+  },
+  {
+    item: "Our Planning",
+    desc: "We plan to continuously improve our facilities and services to deliver exceptional care to our patients.",
+  },
+  {
+    item: "Our Vision",
+    desc: "To be the leading healthcare provider by delivering outstanding medical care using advanced technology.",
+  },
 ];

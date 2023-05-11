@@ -1,3 +1,4 @@
+import { useReducer } from "react";
 import {
   FaChevronRight,
   FaPhoneAlt,
@@ -7,9 +8,21 @@ import {
 
 import { SectionTitle, Button, Section } from "../components";
 
+import { contactReducer, INITIAL_STATE } from "../reducers/contactReducer";
+
 import contactMap from "../assets/contact-map.png";
 
 const SendMessage = () => {
+  const [state, dispatch] = useReducer(contactReducer, INITIAL_STATE);
+
+  const { name, email, phone, subject, message } = state.contactDetails;
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    console.log(state.contactDetails);
+  };
+
   return (
     <Section padding={true} className="relative">
       <div className="container">
@@ -22,48 +35,95 @@ const SendMessage = () => {
         />
 
         <div className="flex flex-col lg:flex-row gap-y-10 gap-x-6">
-          <form className="flex flex-col md:flex-row md:flex-wrap w-full lg:w-3/5 gap-x-3.5">
+          <form
+            onSubmit={handleSubmit}
+            className="flex flex-col md:flex-row md:flex-wrap w-full lg:w-3/5 gap-x-3.5"
+          >
             <div className="w-full mb-4 md:w-[calc(50%-7px)]">
               <input
                 type="text"
                 placeholder="Name"
-                name="name"
-                id="name"
+                value={name}
+                onChange={(e) =>
+                  dispatch({
+                    type: "CHANGE_INPUT",
+                    payload: {
+                      name: "name",
+                      value: e.target.value,
+                    },
+                  })
+                }
                 className="text-sm h-[3.4375rem] w-full bg-white shadow-input text-secondary px-4 focus:outline-none"
               />
             </div>
+
             <div className="w-full mb-4 md:w-[calc(50%-7px)]">
               <input
                 type="email"
                 placeholder="Email"
-                name="email"
-                id="email"
+                value={email}
+                onChange={(e) =>
+                  dispatch({
+                    type: "CHANGE_INPUT",
+                    payload: {
+                      name: "email",
+                      value: e.target.value,
+                    },
+                  })
+                }
                 className="text-sm h-[3.4375rem] w-full bg-white shadow-input text-secondary px-4 focus:outline-none"
               />
             </div>
+
             <div className="w-full mb-4 md:w-[calc(50%-7px)]">
               <input
                 type="text"
                 placeholder="Phone"
-                name="phone"
-                id="phone"
+                value={phone}
+                onChange={(e) =>
+                  dispatch({
+                    type: "CHANGE_INPUT",
+                    payload: {
+                      name: "phone",
+                      value: e.target.value,
+                    },
+                  })
+                }
                 className="text-sm h-[3.4375rem] w-full bg-white shadow-input text-secondary px-4 focus:outline-none"
               />
             </div>
+
             <div className="w-full mb-4 md:w-[calc(50%-7px)]">
               <input
                 type="text"
                 placeholder="Subject"
-                name="subject"
-                id="subject"
+                value={subject}
+                onChange={(e) =>
+                  dispatch({
+                    type: "CHANGE_INPUT",
+                    payload: {
+                      name: "subject",
+                      value: e.target.value,
+                    },
+                  })
+                }
                 className="text-sm h-[3.4375rem] w-full bg-white shadow-input text-secondary px-4 focus:outline-none"
               />
             </div>
+
             <div className="w-full mb-4">
               <textarea
                 placeholder="Your Message"
-                name="subject"
-                id="subject"
+                value={message}
+                onChange={(e) =>
+                  dispatch({
+                    type: "CHANGE_INPUT",
+                    payload: {
+                      name: "message",
+                      value: e.target.value,
+                    },
+                  })
+                }
                 className="text-sm h-[10rem] pt-4 w-full bg-white shadow-input text-secondary px-4 focus:outline-none"
               />
             </div>

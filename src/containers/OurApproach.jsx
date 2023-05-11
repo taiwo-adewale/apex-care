@@ -24,7 +24,7 @@ const OurApproach = () => {
             <SectionTitle
               title="Our Approach"
               heading="High Quality Health Care Services"
-              desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              desc="At Apex Care, our approach is patient-centered, providing individualized care and attention to every patient to achieve optimal health outcomes"
               className="text-center mt-30px lg:mt-0 md:text-left"
             />
 
@@ -48,7 +48,7 @@ const OurApproach = () => {
             </ul>
 
             <div className="text-center pt-30px lg:text-left">
-              <Button icon={<FaChevronRight />} href="/appointment">
+              <Button icon={<FaChevronRight />} href="/appointments">
                 Make Appointment
               </Button>
             </div>

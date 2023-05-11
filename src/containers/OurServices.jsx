@@ -30,7 +30,7 @@ const OurServices = ({ sectionTitle, slice }) => {
               className={`relative bg-white p-6 md:py-10 md:px-[2.375rem] overflow-hidden transition-500 bg-center bg-cover bg-no-repeat group`}
             >
               <div className="flex flex-col relative z-[2] text-center md:text-left items-center md:items-start">
-                <div className="mb-5 w-[4.6875rem] h-[4.6875rem] bg-white text-primary shadow-pick rounded-pick group-hover:rounded-[50%] transition-500 flex justify-center self-center md:self-start items-center text-3xl">
+                <div className="mb-6 w-[4.6875rem] h-[4.6875rem] bg-white text-primary shadow-pick rounded-pick group-hover:rounded-[50%] transition-500 flex justify-center self-center md:self-start items-center text-3xl">
                   {service.icon}
                 </div>
 
@@ -43,7 +43,7 @@ const OurServices = ({ sectionTitle, slice }) => {
                   </Link>
                 </h3>
 
-                <p className="block mt-3 text-13px md:text-15px transition-500 group-hover:text-white">
+                <p className="block mt-3 text-13px md:text-15px transition-500 group-hover:text-white !line-clamp-3">
                   {service.desc}
                 </p>
 

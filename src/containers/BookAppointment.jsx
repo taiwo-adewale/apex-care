@@ -1,4 +1,4 @@
-import { useState, useReducer } from "react";
+import { useReducer } from "react";
 import { FaChevronRight } from "react-icons/fa";
 import { BsTelephone, BsEnvelope, BsPerson } from "react-icons/bs";
 
@@ -22,10 +22,13 @@ const BookAppointment = () => {
   const doctorsList = doctors.map((doctor) => doctor.name);
   const [state, dispatch] = useReducer(appointmentReducer, INITIAL_STATE);
 
+  const { name, doctor, service, phone, date, time, request } =
+    state.appointmentDetails;
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    console.log(state);
+    console.log(state.appointmentDetails);
   };
 
   return (
@@ -36,7 +39,7 @@ const BookAppointment = () => {
             center={false}
             title="Book Appointment"
             heading="We are here for you"
-            className="text-center md:text-left mb-6 md:mb-30px"
+            className="mb-6 text-center md:text-left md:mb-30px"
           />
 
           <form onSubmit={handleSubmit}>
@@ -44,7 +47,7 @@ const BookAppointment = () => {
               <FormInput
                 icon={<BsPerson />}
                 label="Your Name"
-                value={state.name}
+                value={name}
                 name="name"
                 dispatch={dispatch}
                 placeholder="Enter Your Name"
@@ -56,7 +59,7 @@ const BookAppointment = () => {
                 label="Select your doctor"
                 id="doctor-select"
                 name="doctor"
-                value={state.doctor}
+                value={doctor}
                 dispatch={dispatch}
               />
 
@@ -66,14 +69,14 @@ const BookAppointment = () => {
                 label="Select your services"
                 id="service-select"
                 name="service"
-                value={state.service}
+                value={service}
                 dispatch={dispatch}
               />
 
               <FormInput
                 icon={<BsTelephone />}
                 label="Your Phone"
-                value={state.phone}
+                value={phone}
                 name="phone"
                 dispatch={dispatch}
                 placeholder="Enter Your Phone"
@@ -82,7 +85,7 @@ const BookAppointment = () => {
               <FormInput
                 icon={<BsTelephone />}
                 label="Select Date"
-                value={state.date}
+                value={date}
                 name="date"
                 dispatch={dispatch}
                 placeholder="dd/mm/yy"
@@ -91,7 +94,7 @@ const BookAppointment = () => {
               <FormInput
                 icon={<BsTelephone />}
                 label="Add Time"
-                value={state.time}
+                value={time}
                 name="time"
                 dispatch={dispatch}
                 placeholder="15.00AM"
@@ -100,7 +103,7 @@ const BookAppointment = () => {
               <FormTextArea
                 icon={<BsTelephone />}
                 label="Special Request"
-                value={state.request}
+                value={request}
                 name="request"
                 dispatch={dispatch}
                 placeholder="Type message..."

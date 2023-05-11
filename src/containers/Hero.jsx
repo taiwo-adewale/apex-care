@@ -58,7 +58,7 @@ const Hero = () => {
                   <div className="mt-6 lg:mt-30px flex justify-center md:justify-start max-[400px]:flex-wrap gap-y-2.5 gap-x-3">
                     <Button
                       icon={<FaBell />}
-                      href="/appointment"
+                      href="/appointments"
                       className="max-[400px]:flex-grow"
                     >
                       Make Appointment
