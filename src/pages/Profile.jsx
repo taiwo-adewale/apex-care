@@ -8,7 +8,7 @@ const Profile = () => {
     <main>
       <Banner bgImg={contactBg} title="Profile" currentPage="Profile" />
       <Calendar />
-      <MedicalProfile />
+      {/* <MedicalProfile /> */}
     </main>
   );
 };

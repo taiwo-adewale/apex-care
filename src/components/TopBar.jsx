@@ -37,10 +37,10 @@ const TopBar = () => {
               <IoMdPaperPlane />
             </span>
             <a
-              href="mailto:observation@okay.com"
+              href="mailto:apexcare@gmail.com"
               className="text-secondary text-sm hover:text-primary transition-300"
             >
-              observation@okay.com
+              apexcare@gmail.com
             </a>
           </li>
         </ul>

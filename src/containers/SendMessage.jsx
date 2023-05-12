@@ -160,16 +160,16 @@ const SendMessage = () => {
                     Email
                   </span>
                   <a
-                    href="mailto:observation@okay.com"
+                    href="mailto:apexcare@gmail.com"
                     className="block text-textPrimary text-13px md:text-15px hover:text-primary transition-300"
                   >
-                    observation@okay.com
+                    apexcare@gmail.com
                   </a>
                   <a
-                    href="mailto:fax@observation-okay.com"
+                    href="mailto:fax@apex-care.com"
                     className="block text-textPrimary text-13px md:text-15px hover:text-primary transition-300"
                   >
-                    fax@observation-okay.com
+                    fax@apex-care.com
                   </a>
                 </div>
               </li>

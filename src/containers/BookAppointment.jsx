@@ -1,6 +1,14 @@
 import { useReducer } from "react";
 import { FaChevronRight } from "react-icons/fa";
-import { BsTelephone, BsEnvelope, BsPerson } from "react-icons/bs";
+import {
+  BsTelephone,
+  BsEnvelope,
+  BsPerson,
+  BsCalendar2Week,
+  BsClock,
+  BsChatDots,
+  BsBriefcase,
+} from "react-icons/bs";
 
 import {
   SectionTitle,
@@ -65,7 +73,7 @@ const BookAppointment = () => {
 
               <FormSelect
                 selectList={servicesList}
-                icon={<BsEnvelope />}
+                icon={<BsBriefcase />}
                 label="Select your services"
                 id="service-select"
                 name="service"
@@ -83,7 +91,7 @@ const BookAppointment = () => {
               />
 
               <FormInput
-                icon={<BsTelephone />}
+                icon={<BsCalendar2Week />}
                 label="Select Date"
                 value={date}
                 name="date"
@@ -92,7 +100,7 @@ const BookAppointment = () => {
               />
 
               <FormInput
-                icon={<BsTelephone />}
+                icon={<BsClock />}
                 label="Add Time"
                 value={time}
                 name="time"
@@ -101,7 +109,7 @@ const BookAppointment = () => {
               />
 
               <FormTextArea
-                icon={<BsTelephone />}
+                icon={<BsChatDots />}
                 label="Special Request"
                 value={request}
                 name="request"
