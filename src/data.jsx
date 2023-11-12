@@ -1,11 +1,3 @@
-import {
-  FaTrophy,
-  FaAward,
-  FaBriefcaseMedical,
-  FaLightbulb,
-} from "react-icons/fa";
-import { GiLiver } from "react-icons/gi";
-
 import heroBg1 from "./assets/hero-bg-1.jpg";
 import heroBg2 from "./assets/hero-bg-2.jpg";
 import heroBg3 from "./assets/hero-bg-3.jpg";
@@ -46,91 +38,91 @@ export const funFacts = [
   {
     title: "Expert Doctors",
     value: 540,
-    icon: <FaBriefcaseMedical />,
+    icon: <i class="flaticon-doctor-1" />,
     suffix: "+",
   },
   {
     title: "Problems Solved",
     value: 899,
-    icon: <FaLightbulb />,
+    icon: <i class="flaticon-light-bulb" />,
     suffix: "K",
   },
   {
     title: "Awards Won",
     value: 100,
-    icon: <FaAward />,
+    icon: <i class="flaticon-science" />,
     suffix: "+",
   },
   {
     title: "Experiences",
     value: 56,
-    icon: <FaTrophy />,
+    icon: <i class="flaticon-trophy" />,
     suffix: "K",
   },
 ];
 
 export const services = [
   {
-    name: "Preventive Care",
+    name: "Cancer Services",
     desc: "Stay healthy and avoid illness with regular checkups and screenings from our experienced healthcare providers.",
     url: "/",
-    icon: <GiLiver />,
+    icon: <i class="flaticon-cancer" />,
     bgImg: service01,
   },
   {
-    name: "Diagnostic Testing",
+    name: "Liver Transplant",
     desc: "Accurate and timely diagnosis is crucial for effective treatment. We offer a range of tests to help identify your health concerns.",
     url: "/",
-    icon: <GiLiver />,
+    icon: <i class="flaticon-liver" />,
     bgImg: service02,
   },
   {
-    name: "Pediatrics",
+    name: "Kidney Cancer",
     desc: "Our experienced pediatricians provide compassionate care for infants, children, and adolescents, ensuring they grow up healthy and strong.",
     url: "/",
-    icon: <GiLiver />,
+    icon: <i class="flaticon-kidney" />,
     bgImg: service03,
   },
   {
-    name: "Women's Health",
+    name: "Cardiac Arrhythmia",
     desc: "From routine exams to specialized care, our team provides comprehensive healthcare services to meet the unique needs of women.",
     url: "/",
-    icon: <GiLiver />,
+    icon: <i class="flaticon-ekg" />,
     bgImg: service04,
   },
   {
-    name: "Behavioral Health",
+    name: "Dental Services",
     desc: "Take care of your mental health with our expert team of psychiatrists, therapists, and counselors.",
     url: "/",
-    icon: <GiLiver />,
+    icon: <i class="flaticon-tooth" />,
     bgImg: service05,
   },
   {
-    name: "Rehabilitation",
+    name: "Radiation Oncology",
     desc: "Regain your strength and mobility with our personalized physical and occupational therapy programs.",
     url: "/",
-    icon: <GiLiver />,
+    icon: <i class="flaticon-radiation" />,
     bgImg: service06,
   },
   {
     name: "Urgent Care",
     desc: "Our walk-in clinics offer prompt medical attention for non-life-threatening injuries and illnesses.",
     url: "/",
-    icon: <GiLiver />,
+    icon: <i class="flaticon-liver" />,
     bgImg: service07,
   },
   {
     name: "Nutrition Counseling",
     desc: "Get expert guidance on how to improve your health through proper nutrition and lifestyle choices.",
     url: "/",
-    icon: <GiLiver />,
+    icon: <i class="flaticon-cancer" />,
     bgImg: service08,
   },
   {
     name: "Telemedicine",
     desc: "Access healthcare services from the comfort of your own home with our convenient and secure telemedicine platform.",
     url: "/",
-    icon: <GiLiver />,
+    icon: <i class="flaticon-ekg" />,
     bgImg: service09,
   },
 ];
@@ -302,10 +294,6 @@ export const navLinks = [
     name: "Services",
     url: "/services",
   },
-  {
-    name: "Contact",
-    url: "/contact",
-  },
 ];
 
 export const feedbacks = [
@@ -408,18 +396,22 @@ export const missionItems = [
   {
     item: "professional staff",
     desc: "Experienced healthcare providers dedicated to personalized care.",
+    icon: <i class="flaticon-doctor" />,
   },
   {
     item: "Newborn Care",
     desc: "Compassionate care for your newest addition to the family.",
+    icon: <i class="flaticon-newborn" />,
   },
   {
     item: "Sufficient Lab Tests",
     desc: "Accurate testing for timely diagnosis and effective treatment.",
+    icon: <i class="flaticon-laboratory" />,
   },
   {
     item: "Tooth Extraction",
     desc: "Safe and pain-free tooth extractions by our expert dentists.",
+    icon: <i class="flaticon-extraction" />,
   },
 ];
 
@@ -427,18 +419,22 @@ export const mainServices = [
   {
     service: "Advanced Care",
     desc: "Exceptional healthcare solutions using cutting-edge technology.",
+    icon: <i class="flaticon-doctor" />,
   },
   {
     service: "Internal Medicine",
     desc: "Comprehensive care for adults by our experienced physicians.",
+    icon: <i class="flaticon-dental-chair" />,
   },
   {
     service: "Otolaryngology",
     desc: "Specialized care for ear, nose, and throat concerns.",
+    icon: <i class="flaticon-care" />,
   },
   {
     service: "Ophthalmology",
     desc: "Expert eye care services, including exams and treatment.",
+    icon: <i class="flaticon-brain" />,
   },
 ];
 

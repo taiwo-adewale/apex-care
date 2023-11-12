@@ -1,5 +1,3 @@
-import { GiLiver } from "react-icons/gi";
-
 import { SectionTitle, Section } from "../components";
 
 import missionImg from "../assets/mission-img.jpg";
@@ -37,7 +35,7 @@ const MissionAndVision = () => {
                   className="flex flex-col items-center text-center md:items-start md:text-start group"
                 >
                   <div className="mb-2.5 md:mb-3.5 w-[2.8125rem] h-[2.8125rem] bg-white text-primary shadow-mission-circle rounded-[50%] group-hover:rounded-pick transition-500 flex justify-center items-center text-xl group-hover:bg-primary group-hover:text-white">
-                    <GiLiver />
+                    {item.icon}
                   </div>
 
                   <span className="capitalize md:uppercase text-secondary text-base block font-semibold mb-1.5 md:text-17px">

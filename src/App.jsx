@@ -9,8 +9,8 @@ import {
   Home,
   About,
   NotFound,
-  Login,
-  Signup,
+  // Login,
+  // Signup,
   Contact,
   Services,
   Profile,
@@ -30,8 +30,8 @@ const router = createBrowserRouter(
         <Route path="/appointments" element={<Appointments />} />
       </Route>
 
-      <Route path="/login" element={<Login />} />
-      <Route path="/signup" element={<Signup />} />
+      {/* <Route path="/login" element={<Login />} />
+      <Route path="/signup" element={<Signup />} /> */}
       <Route path="*" element={<NotFound />} />
     </>
   )

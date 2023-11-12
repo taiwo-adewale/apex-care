@@ -59,8 +59,8 @@ const Header = () => {
               </ul>
             </nav>
 
-            <Button href="/login" className="!py-3 hidden lg:block">
-              Sign In
+            <Button href="/contact" className="!py-3 hidden lg:block">
+              Contact Us
             </Button>
 
             <button
@@ -99,11 +99,11 @@ const Header = () => {
                     ))}
                     <li>
                       <Link
-                        to="/login"
+                        to="/contact"
                         onClick={() => setIsNavMobile(false)}
                         className="block py-3.5 px-5 border-t border-t-[#DBEEFD] font-medium bg-primary text-white"
                       >
-                        Sign In
+                        Contact Us
                       </Link>
                     </li>
                   </ul>

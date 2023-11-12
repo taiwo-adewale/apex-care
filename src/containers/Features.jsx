@@ -1,5 +1,3 @@
-import { GiLiver } from "react-icons/gi";
-
 import shape2 from "../assets/shape-2.png";
 import { SectionTitle, Section } from "../components";
 
@@ -25,7 +23,7 @@ const Features = () => {
             >
               <div className="flex flex-col relative z-[2] text-center md:text-left items-center md:items-start">
                 <div className="mb-5 w-[3.4375rem] h-[3.4375rem] md:w-[3.75rem] md:h-[3.75rem] bg-primary group-hover:bg-[#49d685] text-white rounded-pick flex justify-center self-center md:self-start items-center text-3xl transition-500">
-                  <GiLiver />
+                  {service.icon}
                 </div>
 
                 <h3 className="block relative text-17px transition-500 text-secondary md:text-[1.25rem] font-bold group-hover:text-white before:content-[''] before:w-0 before:h-[1px] before:absolute before:left-1/2 before:max-md:-translate-x-1/2 before:md:left-0 before:bottom-0 before:bg-white before:group-hover:w-20 before:transition-500">
